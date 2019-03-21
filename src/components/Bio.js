@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './Bio.module.css'
 import { getGravatarURL } from '../utils/getGravatarURL'
 
+/**
+ * Bio Page
+ * Toggled off currently
+ */
 function Bio(props) {
   let photoURL = getGravatarURL({
     email: "test1@example.com",

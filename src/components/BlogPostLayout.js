@@ -3,7 +3,6 @@ import { View, Link, useCurrentRoute } from 'react-navi'
 import { MDXProvider } from '@mdx-js/tag'
 import siteMetadata from '../siteMetadata'
 import ArticleMeta from './ArticleMeta'
-import Bio from './Bio'
 import styles from './BlogPostLayout.module.css'
 
 function BlogPostLayout({ blogRoot }) {
@@ -41,7 +40,7 @@ function BlogPostLayout({ blogRoot }) {
                 {siteMetadata.title}
               </Link>
             </h3>
-            <Bio className={styles.bio} />
+            {/* <Bio className={styles.bio} /> */}
             <section className={styles.links}>
               {
                 data.previousDetails &&

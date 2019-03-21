@@ -1,8 +1,4 @@
-import styles from './document.module.css'
-
-<div className={styles["Welcome"]}>
-
-## How to...
+# How to
 
 **To update this post,** edit `src/pages/posts/2019-01-05-welcome/document.mdx` and save to reload.
 
@@ -19,10 +15,10 @@ import styles from './document.module.css'
 ```jsx
 export default {
   title: `Learn How To Build This Blog From Scratch`,
-  tags: ['react', 'navi'],
+  tags: ["react", "navi"],
   spoiler: "An online course with loads of live demos and exercises.",
-  getContent: () => import('./document.mdx'),
-}
+  getContent: () => import("./document.mdx")
+};
 ```
 
 **To set the maximum number of posts on an index page,**, set the `indexPageSize` property of the object exported by `src/siteMetadata.js`.
@@ -33,8 +29,7 @@ export default {
 
 **To brush up on React's fundamentals,** check out the [React (without the buzzwords)](https://frontarm.com/courses/learn-raw-react/) and [Asynchronous JavaScript](https://frontarm.com/courses/async-javascript/) courses.
 
-
-##  The lowdown
+## The lowdown
 
 This template is designed with a JAMstack architecture. This means that the blog is statically rendered for the fastest possible load time, but once loaded, it turns into a single page app -- ensuring navigation is silky smooth.
 
@@ -42,12 +37,9 @@ It follows a convention-over-configuation philosophy. It should work out of the 
 
 Finally, an effort has been made to prefer explicit code over concise code, and simplicity over complexity. Magic is avoided wherever possible, even if this means more code is required for the desired result.
 
-
 ## The tools
 
 - [React](https://reactjs.org) renders the UI
 - [MDX](https://mdxjs.com) converts markdown into React components
 - [Navi](https://frontarm.com/navi/) handles routing and creates static HTML files for each route
 - [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) builds the app's assets and provides the dev server
-
-</div>

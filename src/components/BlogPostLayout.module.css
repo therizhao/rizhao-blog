@@ -1,5 +1,5 @@
 .title {
-  font-family: Montseratt, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 900;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
@@ -65,6 +65,17 @@
   line-height: 1.1;
   margin-top: 3.5rem;
   text-rendering: optimizeLegibility;
+}
+
+img {
+  width: 100%;
+  max-width: 80vw;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 /**
