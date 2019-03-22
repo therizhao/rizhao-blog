@@ -29,9 +29,6 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
       )}
       <footer className={styles.footer}>
         <div>
-          <a href="./rss.xml" target="_blank" style={{ float: "right" }}>
-            rss
-          </a>
           <Link href="./about">about me</Link> &bull;{" "}
           <Link href="./tags">tags</Link>
         </div>

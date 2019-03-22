@@ -16,7 +16,7 @@ function BlogLayout({ blogRoot, isViewingIndex }) {
       !isViewingIndex && (
         <header>
           <h3 className={styles.title}>
-            <Link href={blogRoot}>{siteMetadata.title}</Link>
+            <Link href={blogRoot}>&#60; {siteMetadata.title}</Link>
           </h3>
         </header>
       )}
