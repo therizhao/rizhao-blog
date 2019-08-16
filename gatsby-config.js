@@ -5,7 +5,7 @@ module.exports = {
     description: 'I am an entrepreneur, software engineer and design student.',
     siteUrl: 'https://www.therizhao.com',
     social: {
-      twitter: '@dan_abramov',
+      twitter: '@therizhao',
     },
   },
   pathPrefix: '/',
@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "Dan Abramov's Overreacted Blog RSS Feed",
+            title: "Ri Zhao's Blog RSS Feed",
           },
         ],
       },

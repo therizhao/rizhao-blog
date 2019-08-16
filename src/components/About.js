@@ -29,7 +29,7 @@ const CardHeader = styled.div`
 `;
 
 const Card = styled.div`
-  margin-top: 25px;
+  margin-top: 30px;
   border-radius: 6px;
 
   &:first-child {
@@ -50,6 +50,7 @@ const Bubble = styled.span`
   display: inline-block;
   padding: 4px 8px;
   margin-bottom: 10px;
+  margin-top: 0;
   background-color: #fff;
   &:not(:last-child) {
     margin-right: 5px;
@@ -111,9 +112,11 @@ const About = () => (
       </ul>
     </Card>
     <h2>Skills</h2>
-    {skills.map(skill => (
-      <Bubble>{skill}</Bubble>
-    ))}
+    <Card>
+      {skills.map(skill => (
+        <Bubble>{skill}</Bubble>
+      ))}
+    </Card>
   </AboutWrapper>
 );
 

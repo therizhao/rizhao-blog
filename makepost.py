@@ -22,12 +22,11 @@ def create_story():
 
         # write to document
         document.write(f"""---
-    title: {title}
-    date: '{now}'
-    spoiler: 
-    ---
-
-    """)
+title: {title}
+date: '{now}'
+spoiler: 
+---
+""")
     else:
         print('\nInvalid Story Type 😓  (You can only choose 1 or 2)\n')
         create_story()

@@ -8,7 +8,7 @@ Today will be one of the more exciting days as I'm prepared to head for the airp
 
 Achievement unlocked: I woke up at 6.30 am today.
 
-![image](1.jpg)
+![image](./1.jpg)
 
 Due to my strong desire to hike that day, I headed for the mountains rather than the airport.
 
@@ -20,23 +20,23 @@ My sensible self committed suicide. I was left with approximately 1050 yen. I st
 
 I was totally prepared to beg for onigiris from fellow trekkers. I prayed that the kitsune udon and two eggs in the morning could at least sustain me until dinner.
 
-![image](3.jpeg)
-![image](4.jpeg)
-![image](5.jpeg)
-![image](6.jpeg)
+![image](./3.jpeg)
+![image](./4.jpeg)
+![image](./5.jpeg)
+![image](./6.jpeg)
 
 I dropped off the bus and began my hike!
 
-![image](7.jpeg)
+![image](./7.jpeg)
 
 The beautiful thing about hiking in Japan is that oncoming hikers going downhill will greet you 'Konichiwa' when you pass by them.
 
-![image](8.jpeg)
+![image](./8.jpeg)
 
 After an hour and a half climb, I reached the summit.
 
-![image](9.jpeg)
-![image](10.jpeg)
+![image](./9.jpeg)
+![image](./10.jpeg)
 
 I was famished. I really wanted to ask one of the people camping up there for food, but I didn't dare to.
 
@@ -58,19 +58,19 @@ The group of ladies looked at me confused. I guess the phone speaker was a tad b
 
 Elated, I thanked the ladies profusely and dug in.
 
-![image](11.jpeg)
+![image](./11.jpeg)
 
 It was the best meal I had in Japan period.
 
 I had a full 3-course meal consisting of a Nabe hotpot, a strawberry Swiss roll, multiple bowls of drip coffee (they didn't bring extra cups haha) and a slice of sweet potato.
 
-![image](12.jpeg)
+![image](./12.jpeg)
 
 One of the ladies' birthday is on 29th December which is just a day away from my birthday (30th December). She loves to eat sweet potato, so they bought her a sweet potato with a 'Happy Birthday' candy on top. How cute!
 
 They celebrated her birthday and mine too!
 
-![image](13.jpeg)
+![image](./13.jpeg)
 
 The sweet potato was so creamy and sweet(that is obvious I know), I fully understood why the lady loved sweet potato so much that her friends made it her birthday cake.
 
@@ -80,23 +80,23 @@ Perhaps, the best seasoning to a meal is love and selflessness. The most delicio
 
 It is food that is shared with big and open hearts that will be blissfully etched in our memories forever.
 
-![image](14.jpeg)
+![image](./14.jpeg)
 
 After filling myself up and bidding farewell to my newly-made friends, I skipped and jumped my way down the mountain.
 
-![image](15.jpeg)
+![image](./15.jpeg)
 
 Soon, I began my long walk back to the train station where I took my bus.
 
-![image](16.jpeg)
+![image](./16.jpeg)
 
 Along the way, I stuck out my thumb at the passing vehicles, trying my luck on hitchhiking.
 
-![image](17.jpeg)
+![image](./17.jpeg)
 
 Luckily enough, after about the twentieth vehicle, a car finally stopped.
 
-![image](18.jpeg)
+![image](./18.jpeg)
 
 Driving the car was a friendly old man. He said a lot to me. But since I didn't understand a single word he said, I replied 'Un' and nodded my head every time he spoke.
 
@@ -110,7 +110,7 @@ Distance to airport: 30km. I had more than 12 hours before my flight.
 
 Alright.
 
-![image](19.jpeg)
+![image](./19.jpeg)
 
 I began my route march towards the airport. Along the way, I flashed out my hitchhiker's thumb to the oncoming drivers.
 
@@ -122,8 +122,8 @@ While walking, I saw an expressway along the route to the airport on my Google M
 
 Guessing that I would get better luck at the expressway, I made my way there.
 
-![image](20.jpeg)
-![image](21.jpeg)
+![image](./20.jpeg)
+![image](./21.jpeg)
 
 As the sun began to set, I finally reached the expressway.
 
@@ -139,7 +139,7 @@ Hopeful, I headed over.
 
 I walked to a car parked at the convenience store and showed the driver my note.
 
-![image](22.jpeg)
+![image](./22.jpeg)
 
 No. He shook his head.
 
@@ -165,7 +165,7 @@ He took a look and asked me to get in.
 
 I was ecstatic.
 
-![image](23.jpeg)
+![image](./23.jpeg)
 
 The driver turned out to be a 76 year old man. His name was Tera-san. He had a cute little dog on the front seat. He spoke good English!
 
@@ -213,6 +213,8 @@ Before leaving, he said "Today is a Christmas present from me."
 
 I thanked him sincerely and waved goodbye.
 
-![image](24.jpeg)
+![image](./24.jpeg)
 
 Life is all about giving and receiving.
+
+[](/last day in japan/)

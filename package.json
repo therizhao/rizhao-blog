@@ -1,9 +1,9 @@
 {
-  "name": "overreacted",
+  "name": "rizhao-blog",
   "private": true,
-  "description": "Overreacted",
+  "description": "rizhao-blog",
   "version": "1.0.0",
-  "author": "Dan Abramov <dan.abramov@me.com>",
+  "author": "Ri Zhao",
   "bugs": {
     "url": "https://github.com/gaearon/overreacted.io/issues"
   },
