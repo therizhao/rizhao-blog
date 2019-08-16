@@ -2,9 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AboutWrapper = styled.div`
+  margin-top: 50px;
+
   & > h2 {
     font-family: Montserrat, sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    margin-top: 0;
   }
 `;
 
@@ -26,8 +29,8 @@ const CardHeader = styled.div`
 `;
 
 const Card = styled.div`
+  margin-top: 25px;
   border-radius: 6px;
-  margin-top: 40px;
 
   &:first-child {
     margin-top: 20px;

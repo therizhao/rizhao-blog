@@ -84,7 +84,7 @@ class BlogIndexTemplate extends React.PureComponent {
               <h3
                 style={{
                   fontFamily: 'Montserrat, sans-serif',
-                  color: 'var(--textLink)',
+                  color: 'var(--postLink)',
                   fontSize: rhythm(1),
                   marginBottom: rhythm(1 / 4),
                 }}

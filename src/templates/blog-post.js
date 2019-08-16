@@ -89,7 +89,14 @@ class BlogPostTemplate extends React.Component {
         <main>
           <article>
             <header>
-              <h1 style={{ color: 'var(--textTitle)' }}>
+              <h1
+                style={{
+                  color: 'var(--textTitle)',
+                  fontSize: 35,
+                  marginBottom: 40,
+                  marginTop: -13,
+                }}
+              >
                 {post.frontmatter.title}
               </h1>
               <p
@@ -124,7 +131,7 @@ class BlogPostTemplate extends React.Component {
               style={{
                 boxShadow: 'none',
                 textDecoration: 'none',
-                color: 'var(--pink)',
+                color: 'var(--textLink)',
               }}
               to={'/'}
             >
