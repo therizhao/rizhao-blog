@@ -1,6 +1,6 @@
 import { Link, graphql } from 'gatsby';
+import styled, { css } from 'styled-components';
 import { formatPostDate, formatReadingTime } from '../utils/helpers';
-
 import Bio from '../components/Bio';
 import Footer from '../components/Footer';
 import Layout from '../components/Layout';
@@ -9,66 +9,119 @@ import React from 'react';
 import SEO from '../components/SEO';
 import get from 'lodash/get';
 import { rhythm } from '../utils/typography';
+import About from '../components/About';
 
-class BlogIndexTemplate extends React.Component {
+const Tabs = styled.div`
+  display: flex;
+  margin-top: -1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.6rem;
+`;
+
+const Tab = styled.div`
+  font-weight: 700;
+  font-family: Montserrat;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--textTitle);
+  &:hover {
+    color: var(--textLink);
+    border-bottom: 2px solid var(--textLink);
+    margin-bottom: -2px;
+  }
+  ${props =>
+    props.isActive &&
+    css`
+      &&& {
+        color: var(--textLink);
+        border-bottom: 2px solid var(--textLink);
+        margin-bottom: -2px;
+      }
+    `}
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+`;
+
+class BlogIndexTemplate extends React.PureComponent {
+  postsTabMap = {
+    1: 'modulePosts',
+    2: 'blogPosts',
+  };
+
+  state = {
+    tab: 0,
+  };
+
+  getPosts(postType) {
+    const posts = get(this, 'props.data.allMarkdownRemark.edges');
+    return posts.filter(
+      ({ node }) => node.fields.slug.split('/')[1] === postType
+    );
+  }
+
+  renderPosts = posts => {
+    return posts.map(({ node }) => {
+      const title = get(node, 'frontmatter.title') || node.fields.slug;
+      return (
+        <article key={node.fields.slug}>
+          <header>
+            <h3
+              style={{
+                fontFamily: 'Montserrat, sans-serif',
+                fontSize: rhythm(1),
+                marginBottom: rhythm(1 / 4),
+              }}
+            >
+              <Link
+                style={{ boxShadow: 'none' }}
+                to={node.fields.slug}
+                rel="bookmark"
+              >
+                {title}
+              </Link>
+            </h3>
+            <small>
+              {formatPostDate(node.frontmatter.date)}
+              {` • ${formatReadingTime(node.timeToRead)}`}
+            </small>
+          </header>
+          <p dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }} />
+        </article>
+      );
+    });
+  };
+
+  handleTabChange = index => {
+    this.setState({ tab: index });
+  };
+
   render() {
+    const { tab } = this.state;
     const siteTitle = get(this, 'props.data.site.siteMetadata.title');
     const langKey = this.props.pageContext.langKey;
-
-    const posts = get(this, 'props.data.allMarkdownRemark.edges');
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
-        <aside>
-          <Bio />
-        </aside>
-        <main>
-          {langKey !== 'en' && langKey !== 'ru' && (
-            <Panel>
-              These articles have been{' '}
-              <a
-                href="https://github.com/gaearon/overreacted.io#contributing-translations"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                translated by the community
-              </a>
-              .
-            </Panel>
-          )}
-
-          {posts.map(({ node }) => {
-            const title = get(node, 'frontmatter.title') || node.fields.slug;
+        <Tabs>
+          {['about', 'modules', 'blog'].map((label, index) => {
             return (
-              <article key={node.fields.slug}>
-                <header>
-                  <h3
-                    style={{
-                      fontFamily: 'Montserrat, sans-serif',
-                      fontSize: rhythm(1),
-                      marginBottom: rhythm(1 / 4),
-                    }}
-                  >
-                    <Link
-                      style={{ boxShadow: 'none' }}
-                      to={node.fields.slug}
-                      rel="bookmark"
-                    >
-                      {title}
-                    </Link>
-                  </h3>
-                  <small>
-                    {formatPostDate(node.frontmatter.date, langKey)}
-                    {` • ${formatReadingTime(node.timeToRead)}`}
-                  </small>
-                </header>
-                <p
-                  dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }}
-                />
-              </article>
+              <Tab
+                isActive={index === tab}
+                onClick={() => this.handleTabChange(index)}
+              >
+                {label}
+              </Tab>
             );
           })}
+        </Tabs>
+        <main>
+          {tab === 0 ? (
+            <About />
+          ) : (
+            this.renderPosts(this.getPosts(this.postsTabMap[tab]))
+          )}
         </main>
         <Footer />
       </Layout>
