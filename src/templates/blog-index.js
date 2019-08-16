@@ -13,9 +13,9 @@ import About from '../components/About';
 
 const Tabs = styled.div`
   display: flex;
-  margin-top: -1.5rem;
-  font-size: 1.3rem;
-  margin-bottom: 1.6rem;
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: -12px;
 `;
 
 const Tab = styled.div`
@@ -53,6 +53,16 @@ class BlogIndexTemplate extends React.PureComponent {
     tab: 0,
   };
 
+  componentDidMount() {
+    this.setState({ tab: +localStorage.getItem('tab') || 0 });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.tab !== this.state.tab) {
+      localStorage.setItem('tab', this.state.tab);
+    }
+  }
+
   getPosts(postType) {
     const posts = get(this, 'props.data.allMarkdownRemark.edges');
     return posts.filter(
@@ -64,30 +74,31 @@ class BlogIndexTemplate extends React.PureComponent {
     return posts.map(({ node }) => {
       const title = get(node, 'frontmatter.title') || node.fields.slug;
       return (
-        <article key={node.fields.slug}>
-          <header>
-            <h3
-              style={{
-                fontFamily: 'Montserrat, sans-serif',
-                fontSize: rhythm(1),
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
-              <Link
-                style={{ boxShadow: 'none' }}
-                to={node.fields.slug}
-                rel="bookmark"
+        <Link
+          style={{ boxShadow: 'none', color: 'inherit' }}
+          to={node.fields.slug}
+          rel="bookmark"
+        >
+          <article key={node.fields.slug}>
+            <header>
+              <h3
+                style={{
+                  fontFamily: 'Montserrat, sans-serif',
+                  color: 'var(--textLink)',
+                  fontSize: rhythm(1),
+                  marginBottom: rhythm(1 / 4),
+                }}
               >
                 {title}
-              </Link>
-            </h3>
-            <small>
-              {formatPostDate(node.frontmatter.date)}
-              {` • ${formatReadingTime(node.timeToRead)}`}
-            </small>
-          </header>
-          <p dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }} />
-        </article>
+              </h3>
+              <small>
+                {formatPostDate(node.frontmatter.date)}
+                {` • ${formatReadingTime(node.timeToRead)}`}
+              </small>
+            </header>
+            <p dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }} />
+          </article>
+        </Link>
       );
     });
   };

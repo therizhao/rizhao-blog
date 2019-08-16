@@ -4,9 +4,24 @@ import styled from 'styled-components';
 const AboutWrapper = styled.div`
   & > h2 {
     font-family: Montserrat, sans-serif;
+    margin-bottom: 25px;
+  }
+`;
+
+const CardHeader = styled.div`
+  margin-bottom: 10px;
+
+  h3 {
+    font-family: Montserrat, sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 
-  p {
+  span {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
   }
 `;
 
@@ -18,14 +33,9 @@ const Card = styled.div`
     margin-top: 20px;
   }
 
-  h3 {
-    font-family: Montserrat, sans-serif;
-    margin-top: 0;
-  }
-
-  li {
-    list-style: none;
-    padding-left: 2px;
+  ul {
+    padding-left: 20px;
+    line-height: 30px;
   }
 
   a {
@@ -34,7 +44,9 @@ const Card = styled.div`
 `;
 
 const Bubble = styled.span`
+  display: inline-block;
   padding: 4px 8px;
+  margin-bottom: 10px;
   background-color: #fff;
   &:not(:last-child) {
     margin-right: 5px;
@@ -50,20 +62,26 @@ const skills = [
   'MongoDB',
   'Express',
   'Python',
+  'UX Design',
+  'Scrum',
+  'Agile Development',
 ];
 
 const About = () => (
   <AboutWrapper>
     <h2>Intro</h2>
     <p>
-      Hello I am Ri Zhao. I am an entrepreneur, a software engineer and a design
-      student. My hobby is running and joining startups.
+      Hello, I am Ri Zhao. I am an entrepreneur, a software engineer and a
+      design student. My hobby is running and joining startups.
     </p>
     <h2>Experience</h2>
     <Card>
-      <h3>
-        Founder of <a href="https://www.astartutors.sg">Astar Tutors</a>
-      </h3>
+      <CardHeader>
+        <h3>
+          Founder of <a href="https://www.astartutors.sg">Astar Tutors</a>
+        </h3>
+        <span>July 2017 - Present</span>
+      </CardHeader>
       <ul>
         <li>Built and marketed the product from scratch </li>
         <li>Leading a cross-functional team of 6 using Scrum methodologies </li>
@@ -71,10 +89,13 @@ const About = () => (
       </ul>
     </Card>
     <Card>
-      <h3>
-        Full Stack Developer Intern at{' '}
-        <a href="https://www.dathena.io">Dathena</a>
-      </h3>
+      <CardHeader>
+        <h3>
+          Full Stack Developer Intern at{' '}
+          <a href="https://www.dathena.io">Dathena</a>
+        </h3>
+        <span>Dec 2018 - Jun 2019</span>
+      </CardHeader>
       <ul>
         <li>Worked extensively with React.js</li>
         <li>Created scalable and reusable components </li>

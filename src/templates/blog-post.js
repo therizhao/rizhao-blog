@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import styled from 'styled-components';
 import get from 'lodash/get';
-
 import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
@@ -16,8 +16,20 @@ import {
   loadFontsForCode,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'gaearon';
-const GITHUB_REPO_NAME = 'overreacted.io';
+const Content = styled.div`
+  .gatsby-resp-image-wrapper {
+    max-width: 400px !important;
+    min-width: 400px !important;
+    margin: 40px 0 !important;
+  }
+
+  img {
+    border-radius: 10px !important;
+  }
+`;
+
+const GITHUB_USERNAME = 'therizhao';
+const GITHUB_REPO_NAME = 'rizhao-blog';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif`;
@@ -67,7 +79,7 @@ class BlogPostTemplate extends React.Component {
     )}`;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={`< ${siteTitle}`}>
         <SEO
           lang={lang}
           title={post.frontmatter.title}
@@ -92,7 +104,7 @@ class BlogPostTemplate extends React.Component {
                 {` • ${formatReadingTime(post.timeToRead)}`}
               </p>
             </header>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <Content dangerouslySetInnerHTML={{ __html: html }} />
           </article>
         </main>
         <aside>
