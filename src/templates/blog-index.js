@@ -11,6 +11,17 @@ import get from 'lodash/get';
 import { rhythm } from '../utils/typography';
 import About from '../components/About';
 
+const ModulesWrapper = styled.div`
+  margin-top: 40px;
+  margin-bottom: -4px;
+  p:first-child {
+    line-height: 1.5;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+`;
+
 const Tabs = styled.div`
   display: flex;
   margin-top: -20px;
@@ -44,11 +55,6 @@ const Tab = styled.div`
 `;
 
 class BlogIndexTemplate extends React.PureComponent {
-  postsTabMap = {
-    1: 'modulePosts',
-    2: 'blogPosts',
-  };
-
   state = {
     tab: 0,
   };
@@ -103,6 +109,40 @@ class BlogIndexTemplate extends React.PureComponent {
     });
   };
 
+  renderContent = () => {
+    const { tab } = this.state;
+
+    if (tab === 0) {
+      return <About />;
+    }
+
+    if (tab === 1) {
+      return (
+        <>
+          <ModulesWrapper>
+            <p>
+              Over here, I document the strange modules I am taking in{' '}
+              <a href="http://did.nus.edu.sg/">NUS Industrial Design</a>.
+            </p>
+            <p>
+              I am using the Agile workflow to tackle this craziness. (
+              <a
+                href="https://trello.com/b/RwV4sYGv/ri-zhaos-nus-id-projects"
+                target="_blank"
+              >
+                Trello Board 👈
+              </a>
+              )
+            </p>
+          </ModulesWrapper>
+          {this.renderPosts(this.getPosts('modulePosts'))}
+        </>
+      );
+    }
+
+    return this.renderPosts(this.getPosts('blogPosts'));
+  };
+
   handleTabChange = index => {
     this.setState({ tab: index });
   };
@@ -127,13 +167,7 @@ class BlogIndexTemplate extends React.PureComponent {
             );
           })}
         </Tabs>
-        <main>
-          {tab === 0 ? (
-            <About />
-          ) : (
-            this.renderPosts(this.getPosts(this.postsTabMap[tab]))
-          )}
-        </main>
+        <main>{this.renderContent()}</main>
         <Footer />
       </Layout>
     );
