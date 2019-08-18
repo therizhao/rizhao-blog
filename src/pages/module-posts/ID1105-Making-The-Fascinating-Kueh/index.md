@@ -8,7 +8,7 @@ spoiler: The definition of fascinating is to be defined...
 
 This is the weirdest assignment I have received to date. I will be documenting the process here.
 
-### Task Requirement:
+### Task Requirements:
 
 - Make a fascinating piece of cooked flour with the use of steam as its shaping tool
 - Limitations:
