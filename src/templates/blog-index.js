@@ -135,12 +135,12 @@ class BlogIndexTemplate extends React.PureComponent {
               )
             </p>
           </ModulesWrapper>
-          {this.renderPosts(this.getPosts('modulePosts'))}
+          {this.renderPosts(this.getPosts('module-posts'))}
         </>
       );
     }
 
-    return this.renderPosts(this.getPosts('blogPosts'));
+    return this.renderPosts(this.getPosts('blog-posts'));
   };
 
   handleTabChange = index => {

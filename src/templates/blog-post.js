@@ -8,7 +8,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Signup from '../components/Signup';
 import Panel from '../components/Panel';
-import { formatPostDate, formatReadingTime } from '../utils/helpers';
+import { formatPostDate, formatReadingTime, media } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import {
   codeToLanguage,
@@ -18,9 +18,20 @@ import {
 
 const Content = styled.div`
   .gatsby-resp-image-wrapper {
-    max-width: 400px !important;
     min-width: 400px !important;
+    max-width: 400px !important;
     margin: 40px 0 !important;
+  }
+
+  ${media.lessThan('420px')`
+    .gatsby-resp-image-wrapper {
+      min-width: 80vw !important;
+      max-width: 80vw !important;
+    }
+  `}
+
+  .gatsby-resp-image-link:hover {
+    box-shadow: none;
   }
 
   img {

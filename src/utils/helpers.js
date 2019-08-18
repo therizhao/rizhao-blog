@@ -1,3 +1,5 @@
+import { generateMedia } from 'styled-media-query';
+
 export function formatReadingTime(minutes) {
   let cups = Math.round(minutes / 5);
   let bowls = 0;
@@ -23,3 +25,9 @@ export function formatPostDate(date, lang) {
   ].filter(Boolean);
   return date.toLocaleDateString(...args);
 }
+
+export const media = generateMedia({
+  sm: '480px',
+  md: '640px',
+  lg: '1024px',
+});
