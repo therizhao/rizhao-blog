@@ -9,6 +9,7 @@ spoiler: A spinning top?
 - [Introduction](#introduction)
   - [Task Requirement:](#task-requirement)
 - [About the man](#about-the-man)
+- [Abbrevations:](#abbrevations)
 - [The Spinning Top](#the-spinning-top)
   - [Diagnosis](#diagnosis)
   - [My Spinning Top Ideas](#my-spinning-top-ideas)
@@ -16,6 +17,8 @@ spoiler: A spinning top?
     - [I02 Colander With Spinning Top Base & Shields](#i02-colander-with-spinning-top-base--shields)
     - [I03 Spinning Top Dice](#i03-spinning-top-dice)
     - [I04 Spinning Top Bathtub](#i04-spinning-top-bathtub)
+- [Assignments](#assignments)
+  - [A01](#a01)
 - [Footnotes](#footnotes)
 
 ## Introduction
@@ -53,6 +56,11 @@ Died: 2 December 2002 (aged 84)
 
 Studio: Castiglioni Studio (Was actually co-founded by Pier & Livio Giacomo)
 ```
+
+## Abbrevations:
+
+- **I:** Idea
+- **A:** Assignment
 
 ## The Spinning Top
 
@@ -126,6 +134,23 @@ Studio: Castiglioni Studio (Was actually co-founded by Pier & Livio Giacomo)
 #### I04 Spinning Top Bathtub
 
 ![Spinning Top Bathtub](7.jpg)
+
+## Assignments
+
+### A01
+
+**List 3 reference books, articles or resources you plan to use as part of your research on your chosen designer:**
+
+*Date: 20 Aug 2019*
+
+1. Achille and Pier Giacomo Castiglioni
+   - Author: Matteo Vercelloni
+
+2. Achille Castiglioni
+   - Author: Achille Castiglioni
+
+3. Achille Castiglioni : Complete works
+   - Author: Sergio Polano
 
 ## Footnotes
   
