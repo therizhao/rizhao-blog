@@ -1,8 +1,28 @@
 ---
 title: ID1105 Making The Fascinating Kueh
 date: '2019-08-17'
-spoiler: The definition of fascinating is to be defined...
+spoiler: The definition of fascinating is to be defined.
 ---
+
+**Table Of Contents:**
+
+- [Introduction](#introduction)
+  - [Task Requirements:](#task-requirements)
+- [Plan](#plan)
+  - [My Rough Plan](#my-rough-plan)
+  - [Abbrevations](#abbrevations)
+- [E01 17-08-19](#e01-17-08-19)
+  - [I01 Basic Kueh](#i01-basic-kueh)
+    - [Ingredients](#ingredients)
+    - [Steps](#steps)
+  - [Reflection time](#reflection-time)
+- [E02 18-08-19](#e02-18-08-19)
+  - [I02 Tabasco Coffee Basil Kueh](#i02-tabasco-coffee-basil-kueh)
+    - [Ingredients](#ingredients-1)
+    - [Steps](#steps-1)
+  - [I03 Good Morning Kueh](#i03-good-morning-kueh)
+    - [Ingredients](#ingredients-2)
+    - [Steps](#steps-2)
 
 ## Introduction
 
@@ -29,7 +49,7 @@ This is the weirdest assignment I have received to date. I will be documenting t
 
 According to the professor, I should not have a plan. This project is an exploration process. I will however still have a rough plan to prevent things from going out of hand.
 
-### My Rough Plan 😛
+### My Rough Plan
 
 ![Steps](1.png)
 
@@ -153,7 +173,7 @@ According to the professor, I should not have a plan. This project is an explora
 
 ![Kueh with Lao Gan Ma chilli sauce](20.jpg)
 
-### Reflection time ⏱
+### Reflection time
 
 - Things didn't turn out as bad as I expected it to be
 - Location may affect the Kueh made
@@ -161,6 +181,53 @@ According to the professor, I should not have a plan. This project is an explora
 - Unplanned-for ingredients might be the dealbreakers sometimes
 
 
+## E02 18-08-19 
 
+- Goal: Try something new
+- Location: Pantry@RVRC
+- Partner: Ambrose
+
+### I02 Tabasco Coffee Basil Kueh
+
+#### Ingredients
+
+- 100ml tapioca starch
+- Rice flour
+- Hot water
+- 1/2 sachet of Gold Roast coffee powder
+- Basil leaves x4 
+
+#### Steps
+
+1. My inexperienced friend accidentally added 100ml of tapioca starch into a pot of water
+
+![Starch in water](21.jpg)
+
+2. Removed the lump together with around 70ml of water
+3. Removed excess water as things seems to be less than ideal
+4. Added half a sachet of coffee powder as I realised that there is no sugar in the kitchen
+
+5. Added 4 basil leaves
+6. Made another mixture
+   1. Added 100ml of tapioca starch
+   2. Added 100ml of rice flour
+   3. Added 150ml of hot water
+7. Added paste with a few drop of tabasco
+
+### I03 Good Morning Kueh
+
+#### Ingredients
+
+- Leftover Tapioca x Rice flour mixture from I02
+- Hot Water
+- Cheddar Cheese
+- Egg
+
+#### Steps
+
+1. Added 50ml leftover paste from I02 
+2. Added a layer of cheddar cheese
+3. Added an egg
+4. Added another layer of lefover paste from I02
 
 ...*This space will be filled with my next few experiments*...

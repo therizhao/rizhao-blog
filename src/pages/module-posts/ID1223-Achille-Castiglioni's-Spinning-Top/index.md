@@ -4,6 +4,20 @@ date: '2019-08-18'
 spoiler: A spinning top?
 ---
 
+**Table Of Contents:**
+
+- [Introduction](#introduction)
+  - [Task Requirement:](#task-requirement)
+- [About the man](#about-the-man)
+- [The Spinning Top](#the-spinning-top)
+  - [Diagnosis](#diagnosis)
+  - [My Spinning Top Ideas](#my-spinning-top-ideas)
+    - [I01 Colander with Spinnning Top Base](#i01-colander-with-spinnning-top-base)
+    - [I02 Colander With Spinning Top Base & Shields](#i02-colander-with-spinning-top-base--shields)
+    - [I03 Spinning Top Dice](#i03-spinning-top-dice)
+    - [I04 Spinning Top Bathtub](#i04-spinning-top-bathtub)
+- [Footnotes](#footnotes)
+
 ## Introduction
 
 In this assignment, we have to design and fabricate a spinning top belonging to a designer we have been assigned to. My designer is [this Italian guy who has passed away](https://en.wikipedia.org/wiki/Achille_Castiglioni).
@@ -23,7 +37,7 @@ In this assignment, we have to design and fabricate a spinning top belonging to 
   - Encouraged to use materials and processes indicative of the designer and era
   - May purchase existing spinning top from market
 
-## About the man 😎
+## About the man
 
 ![Achille_Castiglioni](1.jpg)
 [Image Source 🚰](https://en.wikipedia.org/wiki/File:Portrait_of_Achille_Castiglioni_(1918%E2%80%932002),_cropped.jpg)
@@ -42,7 +56,7 @@ Studio: Castiglioni Studio (Was actually co-founded by Pier & Livio Giacomo)
 
 ## The Spinning Top
 
-### Diagnosis 👨🏻‍⚕️
+### Diagnosis
 
 - Mr Castiglioni is very focused on making things functional 🔨
 
@@ -105,9 +119,15 @@ Studio: Castiglioni Studio (Was actually co-founded by Pier & Livio Giacomo)
 - Over the next few weeks, I will try to get a colander and solder a spinning top at the bottom of it
 - Then, I will try drying my breakfast [instant noodles](https://kokanoodles.com/product/koka-purple-wheat-chilli-lime-noodles/) with it
 
+#### I03 Spinning Top Dice
 
+![Spinning Top Dice](6.jpg)
 
-## Footnotes 👟
+#### I04 Spinning Top Bathtub
+
+![Spinning Top Bathtub](7.jpg)
+
+## Footnotes
   
 [^1]:
   The Designer Is Not A Fanciful Artist, conference by Achille Castiglioni in Courtray, 19 October 1970
