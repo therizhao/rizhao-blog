@@ -17,6 +17,9 @@ spoiler: A spinning top?
     - [I02 Colander With Spinning Top Base & Shields](#i02-colander-with-spinning-top-base--shields)
     - [I03 Spinning Top Dice](#i03-spinning-top-dice)
     - [I04 Spinning Top Bathtub](#i04-spinning-top-bathtub)
+    - [I05 Spinning Top Phone Case](#i05-spinning-top-phone-case)
+    - [I06 Spinning Top Cup](#i06-spinning-top-cup)
+    - [I07 Spininng Top Cable Holder](#i07-spininng-top-cable-holder)
 - [Assignments](#assignments)
   - [A01](#a01)
 - [Footnotes](#footnotes)
@@ -131,9 +134,50 @@ Studio: Castiglioni Studio (Was actually co-founded by Pier & Livio Giacomo)
 
 ![Spinning Top Dice](6.jpg)
 
+- Throwing dice gives you the results in a second
+- But spinning a spinning top dice takes forever for you to get a result
+- It would be heart-wringing to wait for the dice to stop
+- After some googling, I realise this idea is already [in production](https://www.thegreenhead.com/2017/11/spinning-dice-top.php) 😀
+
 #### I04 Spinning Top Bathtub
 
 ![Spinning Top Bathtub](7.jpg)
+
+- This is a whacky idea 😜
+- I thought it would be fun to have a spinning bathtub which will theoretically be like a jacuzzi 🛁
+- Not sure how it really relates to Mr Castiglioni 😅
+
+#### I05 Spinning Top Phone Case
+
+![Spinning Top Phone Case](8.jpg)
+
+- Inspiration for this idea comes from observing people spinning their phones when they are bored
+- It would be cool if the phone will automatically launch an app when its gyroscope detects spinning
+- Phone will then start displaying balls going up and down based on the tilt angle of the phone
+
+#### I06 Spinning Top Cup
+
+![Spinning Top Cup](9.jpg)
+
+- It is sometimes impossibly difficult to find a stirrer in the morning to stir my coffee ☕️
+- I would usually have to resort to shaking the coffee mug to get an even mixture, which isn't very effective
+- If the cup can spin, the stirrer would no longer be needed
+- & I can enjoy my cup of morning gold without always having to search for a stirrer 😀
+
+**Forseeable problems**
+
+- Spillage of liquid
+  - It should be self-balancing
+  - Maximum tilt angle of the cup should be limited
+
+#### I07 Spininng Top Cable Holder
+
+![Spinning Top Cup](10.jpg)
+
+- It sucks to have a tangled cable 🤯
+- [Existing cable organisers](https://www.zulily.com/p_/-39143586.html?rtn=y&page=pdp&tid=googplaSG_1133_2031020841_74563369631_39143587_zcvp2_SG&cc=SG%7CSGD&gclid=CjwKCAjwtO7qBRBQEiwAl5WC22Ur12DaiS37oV2DLUzDxeXOAj37V9bvCweAjwYEyPb1dBDrgpQmQRoCIOUQAvD_BwE) are a pain to use 😳
+  - They mostly require you to twirl the cable around the cable holder which can be really tedious
+- With a spinning top, you can make use of the spinning motion to keep you cables tidy 🤩
 
 ## Assignments
 
