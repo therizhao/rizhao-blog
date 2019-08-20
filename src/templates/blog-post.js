@@ -35,6 +35,7 @@ const Content = styled.div`
   }
 
   img {
+    height: auto !important;
     border-radius: 10px !important;
   }
 `;

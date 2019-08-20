@@ -23,6 +23,10 @@ spoiler: The definition of fascinating is to be defined.
   - [I03 Good Morning Kueh](#i03-good-morning-kueh)
     - [Ingredients](#ingredients-2)
     - [Steps](#steps-2)
+  - [Results](#results)
+- [L01 Kueh Evaluation Day](#l01-kueh-evaluation-day)
+  - [101 ways to screw up a Kueh](#101-ways-to-screw-up-a-kueh)
+  - [Events](#events)
 
 ## Introduction
 
@@ -61,6 +65,7 @@ According to the professor, I should not have a plan. This project is an explora
 
 - **E**: Stands for each experiment day
 - **I**: Stands for each iteration
+- **L**: Stand for each lesson
 
 ## E01 17-08-19 
 
@@ -205,23 +210,31 @@ According to the professor, I should not have a plan. This project is an explora
 
 2. Removed the lump together with around 70ml of water
 3. Removed excess water as things seems to be less than ideal
-4. Added half a sachet of coffee powder as I realised that there is no sugar in the kitchen
 
+![Stirring shit](22.jpg)
+4. Added half a sachet of coffee powder as I realised that there is no sugar in the kitchen
+5. Transferered mixture into a cup
+
+![Add coffee](23.gif)
 5. Added 4 basil leaves
-6. Made another mixture
+
+![Add leaves](24.gif)
+6. Made another flour mixture
    1. Added 100ml of tapioca starch
    2. Added 100ml of rice flour
    3. Added 150ml of hot water
-7. Added paste with a few drop of tabasco
+
+![Making mixture](25.jpg)
+7. Transferred flour mixture to cup
+8. Added a few drops of Tabasco sauce 🌶
 
 ### I03 Good Morning Kueh
 
 #### Ingredients
 
 - Leftover Tapioca x Rice flour mixture from I02
-- Hot Water
-- Cheddar Cheese
-- Egg
+- A sprinkle Cheddar Cheese 
+- Egg x 1
 
 #### Steps
 
@@ -229,5 +242,52 @@ According to the professor, I should not have a plan. This project is an explora
 2. Added a layer of cheddar cheese
 3. Added an egg
 4. Added another layer of lefover paste from I02
+
+1. Both I02 and I03 are steamed for 15 min
+2. Both I02 and I03 are refrigerated overnight
+
+### Results
+
+**I01 Tabasco Coffee Basil Kueh**
+
+![I01](26.jpg)
+
+**I02 Good Morning Kueh**
+
+![I02](28.jpg)
+
+![I02](29.jpg)
+
+## L01 Kueh Evaluation Day
+
+- Immediately after I completed my 2 kuehs, I went for my first Kueh evaluation session
+- The results are surprising 😍
+
+### 101 ways to screw up a Kueh
+
+![Kuehs](31.jpg)
+
+![Kuehs](32.jpg)
+
+![Kuehs](33.jpg)
+
+![Kuehs](34.jpg)
+
+![Kuehs](35.jpg)
+
+![Kuehs](36.jpg)
+
+![Kuehs](37.jpg)
+
+### Events
+
+1. We had a Kueh voting session
+2. Each of us is given 5 strips of paper which we use to vote for our favourite Kuehs
+3. Our favourite kuehs are divided into 2 segments
+   - Kuehs we think are created by accidents 💥
+   - Kuehs we think are created by a plan 📝
+4. The prof encouraged us to intentionally create accidents
+
+
 
 ...*This space will be filled with my next few experiments*...
