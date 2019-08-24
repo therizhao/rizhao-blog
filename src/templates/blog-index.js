@@ -11,7 +11,7 @@ import get from 'lodash/get';
 import { rhythm } from '../utils/typography';
 import About from '../components/About';
 
-const ModulesWrapper = styled.div`
+const DescWrapper = styled.div`
   margin-top: 40px;
   margin-bottom: -4px;
   p:first-child {
@@ -119,9 +119,9 @@ class BlogIndexTemplate extends React.PureComponent {
     if (tab === 1) {
       return (
         <>
-          <ModulesWrapper>
+          <DescWrapper>
             <p>
-              Over here, I document the strange modules I am taking in{' '}
+              Over here, I document the strange projects I am working on in{' '}
               <a href="http://did.nus.edu.sg/">NUS Industrial Design</a>.
             </p>
             <p>
@@ -134,8 +134,22 @@ class BlogIndexTemplate extends React.PureComponent {
               </a>
               )
             </p>
-          </ModulesWrapper>
+          </DescWrapper>
           {this.renderPosts(this.getPosts('module-posts'))}
+        </>
+      );
+    }
+
+    if (tab === 2) {
+      return (
+        <>
+          <DescWrapper>
+            <p>
+              This section contains the notes I have taken for modules I am
+              taking in NUS.
+            </p>
+          </DescWrapper>
+          {this.renderPosts(this.getPosts('notes'))}
         </>
       );
     }
@@ -156,7 +170,7 @@ class BlogIndexTemplate extends React.PureComponent {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
         <Tabs>
-          {['about', 'modules', 'blog'].map((label, index) => {
+          {['about', 'projects', 'notes', 'blog'].map((label, index) => {
             return (
               <Tab
                 isActive={index === tab}

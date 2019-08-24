@@ -30,6 +30,10 @@ const Content = styled.div`
     }
   `}
 
+  td, th {
+    border-bottom: 1px solid var(--table-color);
+  }
+
   .gatsby-resp-image-link:hover {
     box-shadow: none;
   }
