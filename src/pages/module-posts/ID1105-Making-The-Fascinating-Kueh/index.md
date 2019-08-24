@@ -287,6 +287,7 @@ According to the professor, I should not have a plan. This project is an explora
    - Kuehs we think are created by accidents 💥
    - Kuehs we think are created by a plan 📝
 4. The prof encouraged us to intentionally create accidents
+    
 
 
 
