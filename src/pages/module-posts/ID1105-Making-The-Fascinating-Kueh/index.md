@@ -312,6 +312,7 @@ For today, we will try to make as many different types of kueh as possible 😝.
 9. Removed 1 spoon of mixture and made **1 more kueh (I06)**
 10. Added 4 spoons of tapioca starch
 11. Removed 1 spoon of mixture and made **1 more kueh (I07)**
+12. Steamed for 20 mins
 
 
 ### 108 Cheetos Kueh
@@ -319,6 +320,9 @@ For today, we will try to make as many different types of kueh as possible 😝.
 1. Added 2 Cheetos
 2. Added 9 tablespoons of tapioca starch
 3. Added 7 tablespoons of rice flour
+4. Mixed mixture
+5. Add 1 grape
+6. Steamed for 20 mins
 
 ### I09 Strawberry Cherry Fish Rice Kueh
 
@@ -328,5 +332,6 @@ For today, we will try to make as many different types of kueh as possible 😝.
 4. Added 1 half-eaten strawberry
 5. Added half a piece of dory fish from RVRC Sunday dinner
 6. Added added quinoa from RVRC Sunday dinner
+7. Steamed for 20 mins
 
 ...*This space will be filled with my next few experiments*...

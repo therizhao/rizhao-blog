@@ -45,8 +45,10 @@ const Tab = styled.div`
     css`
       &&& {
         color: var(--textLink);
-        border-bottom: 2px solid var(--textLink);
         margin-bottom: -2px;
+        border-bottom: ${props.isHideActiveBorder
+          ? 'none'
+          : '2px solid var(--textLink)'};
       }
     `}
   &:not(:last-child) {
@@ -57,15 +59,23 @@ const Tab = styled.div`
 class BlogIndexTemplate extends React.PureComponent {
   state = {
     tab: 0,
+    modulesTab: 0,
   };
 
   componentDidMount() {
-    this.setState({ tab: +localStorage.getItem('tab') || 0 });
+    this.setState({
+      tab: +localStorage.getItem('tab') || 0,
+      modulesTab: +localStorage.getItem('modulesTab') || 0,
+    });
   }
 
   componentDidUpdate(prevProps, prevState) {
     if (prevState.tab !== this.state.tab) {
       localStorage.setItem('tab', this.state.tab);
+    }
+
+    if (prevState.modulesTab !== this.state.modulesTab) {
+      localStorage.setItem('modulesTab', this.state.tab);
     }
   }
 
@@ -75,6 +85,14 @@ class BlogIndexTemplate extends React.PureComponent {
       ({ node }) => node.fields.slug.split('/')[1] === postType
     );
   }
+
+  handleTabChange = index => {
+    this.setState({ tab: index });
+  };
+
+  handleModulesTabChange = index => {
+    this.setState({ modulesTab: index });
+  };
 
   renderPosts = posts => {
     return posts.map(({ node }) => {
@@ -109,19 +127,15 @@ class BlogIndexTemplate extends React.PureComponent {
     });
   };
 
-  renderContent = () => {
-    const { tab } = this.state;
+  renderModulesContent = () => {
+    const { modulesTab } = this.state;
 
-    if (tab === 0) {
-      return <About />;
-    }
-
-    if (tab === 1) {
+    if (modulesTab === 0) {
       return (
         <>
           <DescWrapper>
             <p>
-              Over here, I document the strange projects I am working on in{' '}
+              Here are the strange projects I am working on in{' '}
               <a href="http://did.nus.edu.sg/">NUS Industrial Design</a>.
             </p>
             <p>
@@ -140,25 +154,48 @@ class BlogIndexTemplate extends React.PureComponent {
       );
     }
 
-    if (tab === 2) {
-      return (
-        <>
-          <DescWrapper>
-            <p>
-              This section contains the notes I have taken for modules I am
-              taking in NUS.
-            </p>
-          </DescWrapper>
-          {this.renderPosts(this.getPosts('notes'))}
-        </>
-      );
+    return this.renderPosts(this.getPosts('notes'));
+  };
+
+  renderModules = () => {
+    const { modulesTab } = this.state;
+
+    return (
+      <div style={{ marginTop: 40 }}>
+        <div style={{ marginBottom: 40 }}>
+          This is where I document about all the NUS modules I am taking/have
+          taken.
+        </div>
+        <Tabs>
+          {['projects', 'notes'].map((label, index) => {
+            return (
+              <Tab
+                style={{ fontSize: 17, boxShadow: 'none' }}
+                isActive={index === modulesTab}
+                onClick={() => this.handleModulesTabChange(index)}
+              >
+                {label}
+              </Tab>
+            );
+          })}
+        </Tabs>
+        <div>{this.renderModulesContent()}</div>
+      </div>
+    );
+  };
+
+  renderContent = () => {
+    const { tab } = this.state;
+
+    if (tab === 0) {
+      return <About />;
+    }
+
+    if (tab === 1) {
+      return this.renderModules();
     }
 
     return this.renderPosts(this.getPosts('blog-posts'));
-  };
-
-  handleTabChange = index => {
-    this.setState({ tab: index });
   };
 
   render() {
@@ -170,7 +207,7 @@ class BlogIndexTemplate extends React.PureComponent {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
         <Tabs>
-          {['about', 'projects', 'notes', 'blog'].map((label, index) => {
+          {['about', 'modules', 'blog'].map((label, index) => {
             return (
               <Tab
                 isActive={index === tab}
