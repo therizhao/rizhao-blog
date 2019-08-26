@@ -28,7 +28,7 @@ spoiler: The definition of fascinating is to be defined.
   - [101 ways to screw up a Kueh](#101-ways-to-screw-up-a-kueh)
   - [Events](#events)
 - [E03 25-08-19](#e03-25-08-19)
-  - [I04-I07 Leave Kuehs](#i04-i07-leave-kuehs)
+  - [I04-I07 Leaf Kuehs](#i04-i07-leaf-kuehs)
     - [Steps](#steps-3)
   - [108 Cheetos Kueh](#108-cheetos-kueh)
   - [I09 Strawberry Cherry Fish Rice Kueh](#i09-strawberry-cherry-fish-rice-kueh)
@@ -297,7 +297,7 @@ According to the professor, I should not have a plan. This project is an explora
 
 For today, we will try to make as many different types of kueh as possible 😝.
 
-### I04-I07 Leave Kuehs
+### I04-I07 Leaf Kuehs
 
 #### Steps
 
