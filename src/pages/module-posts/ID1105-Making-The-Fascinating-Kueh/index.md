@@ -314,6 +314,8 @@ For today, we will try to make as many different types of kueh as possible 😝.
 11. Removed 1 spoon of mixture and made **1 more kueh (I07)**
 12. Steamed for 20 mins
 
+![steam](38.jpg)
+
 
 ### 108 Cheetos Kueh
 
