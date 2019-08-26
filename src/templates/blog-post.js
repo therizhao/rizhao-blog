@@ -1,4 +1,6 @@
 import React from 'react';
+import Fab from '@material-ui/core/Fab';
+import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import get from 'lodash/get';
@@ -15,6 +17,7 @@ import {
   createLanguageLink,
   loadFontsForCode,
 } from '../utils/i18n';
+import { Fade } from '@material-ui/core';
 
 const Content = styled.div`
   .gatsby-resp-image-wrapper {
@@ -30,7 +33,13 @@ const Content = styled.div`
     }
   `}
 
-  td, th {
+  table {
+    max-width: 100vw;
+    overflow: auto;
+  }
+
+  td,
+  th {
     border-bottom: 1px solid var(--table-color);
   }
 
@@ -44,6 +53,25 @@ const Content = styled.div`
   }
 `;
 
+const ScrollButton = styled(Fab)`
+  &&& {
+    position: fixed;
+    background-color: var(--textLink);
+    bottom: 20px;
+    right: 3vw;
+
+    ${media.greaterThan('850px')`
+      bottom: 30px;
+      right: 10%;
+    `}
+
+    ${media.greaterThan('1150px')`
+      bottom: 40px;
+      right: 20%;
+    `}
+  }
+`;
+
 const GITHUB_USERNAME = 'therizhao';
 const GITHUB_REPO_NAME = 'rizhao-blog';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -51,6 +79,33 @@ const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Droid Sans", "Helvetica Neue", sans-serif`;
 
 class BlogPostTemplate extends React.Component {
+  state = {
+    isScrollButtonShown: false,
+  };
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = e => {
+    this.setState({ isScrollButtonShown: window.scrollY > 100 });
+  };
+
+  renderScrollButton = () => {
+    return (
+      <Fade in={this.state.isScrollButtonShown}>
+        <ScrollButton
+          color="primary"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          <UpIcon />
+        </ScrollButton>
+      </Fade>
+    );
+  };
+
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
@@ -128,6 +183,7 @@ class BlogPostTemplate extends React.Component {
               </p>
             </header>
             <Content dangerouslySetInnerHTML={{ __html: html }} />
+            {this.renderScrollButton()}
           </article>
         </main>
         <aside>
