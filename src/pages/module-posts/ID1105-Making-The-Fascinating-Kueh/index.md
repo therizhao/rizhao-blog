@@ -27,6 +27,11 @@ spoiler: The definition of fascinating is to be defined.
 - [L01 Kueh Evaluation Day](#l01-kueh-evaluation-day)
   - [101 ways to screw up a Kueh](#101-ways-to-screw-up-a-kueh)
   - [Events](#events)
+- [E03 25-08-19](#e03-25-08-19)
+  - [I04-I07 Leave Kuehs](#i04-i07-leave-kuehs)
+    - [Steps](#steps-3)
+  - [108 Cheetos Kueh](#108-cheetos-kueh)
+  - [I09 Strawberry Cherry Fish Rice Kueh](#i09-strawberry-cherry-fish-rice-kueh)
 
 ## Introduction
 
@@ -288,7 +293,40 @@ According to the professor, I should not have a plan. This project is an explora
    - Kuehs we think are created by a plan 📝
 4. The prof encouraged us to intentionally create accidents
     
+## E03 25-08-19
+
+For today, we will try to make as many different types of kueh as possible 😝.
+
+### I04-I07 Leave Kuehs
+
+#### Steps
+
+1. Added 1 spoon of rice flour
+2. Added 1 spoon of tapioca flour
+3. Added 1 spoon of water
+4. Mixed the mixture
+5. Removed 1 spoon of mixture and made **1 kueh (I04)**
+6. Added 1 spoon of water
+7. Removed 1 spoon of mixture and made **1 more kueh (I05)**
+8. Added 1 spoon of water
+9. Removed 1 spoon of mixture and made **1 more kueh (I06)**
+10. Added 4 spoons of tapioca starch
+11. Removed 1 spoon of mixture and made **1 more kueh (I07)**
 
 
+### 108 Cheetos Kueh
+
+1. Added 2 Cheetos
+2. Added 9 tablespoons of tapioca starch
+3. Added 7 tablespoons of rice flour
+
+### I09 Strawberry Cherry Fish Rice Kueh
+
+1. Added 6 tablespoons of tapioca starch
+2. Added 5 tablespoons of rice flour
+3. Added 1 cherry
+4. Added 1 half-eaten strawberry
+5. Added half a piece of dory fish from RVRC Sunday dinner
+6. Added added quinoa from RVRC Sunday dinner
 
 ...*This space will be filled with my next few experiments*...

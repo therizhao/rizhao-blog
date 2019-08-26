@@ -37,6 +37,7 @@ spoiler:
   - [Pointers: Helpful "pointers"](#pointers-helpful-%22pointers%22)
   - [Function parameter passing](#function-parameter-passing)
   - [Summary](#summary)
+  - [Misc Notes](#misc-notes-1)
 
 ## Lecture 1
 
@@ -990,7 +991,7 @@ ptr = &x;
 | ------ | ------------------ | ------------------------------------------ |
 | &x     |                    | pointer                                    |
 | `*x`   | during declaration | declaring a pointer variable               |
-| `*x`   | during usage       | dereferencing a pointer variable (content) |
+| `*x`   | during usage       | dereferencing a pointer variable (content) | 
 
 ### Summary
 
@@ -1002,3 +1003,26 @@ ptr = &x;
   - Requires caller to pass in address using &
   - Requires dereferencing of params in function
   - Array are passed by address
+
+### Misc Notes
+
+**Getting Input**
+```c
+int i;
+// Pass pointer to populate i
+scanf(“%d”, &i);`
+```
+
+**Pointers**
+
+```c
+void getValue(int *myPointer) {
+  *myPointer = 1000;
+}
+
+int main() {
+  int my_array[4]
+}
+```
+
+ 
