@@ -1,7 +1,7 @@
 ---
 title: CS2100 Computer Organisation
-date: '2019-08-24'
-spoiler: 
+date: '2019-08-25'
+spoiler: 01000110  01010101 01000011 01001011  01011001 01001111 01010101 00100001
 ---
 
 - [Lecture 1](#lecture-1)

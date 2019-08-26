@@ -1,7 +1,7 @@
 ---
 title: CS1231 Discrete Structures
 date: '2019-08-24'
-spoiler: 
+spoiler: Getting worse in reasoning 🤯
 ---
 
 - [Lecture 1](#lecture-1)

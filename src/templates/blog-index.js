@@ -154,7 +154,14 @@ class BlogIndexTemplate extends React.PureComponent {
       );
     }
 
-    return this.renderPosts(this.getPosts('notes'));
+    return (
+      <>
+        <DescWrapper>
+          <p>I get bored during lessons. Hence, I take notes.</p>
+        </DescWrapper>
+        {this.renderPosts(this.getPosts('notes'))}
+      </>
+    );
   };
 
   renderModules = () => {
@@ -163,8 +170,8 @@ class BlogIndexTemplate extends React.PureComponent {
     return (
       <div style={{ marginTop: 40 }}>
         <div style={{ marginBottom: 40 }}>
-          This is where I document about all the NUS modules I am taking/have
-          taken.
+          This is where I document about all the modules I am taking/have taken
+          in NUS.
         </div>
         <Tabs>
           {['projects', 'notes'].map((label, index) => {

@@ -1,7 +1,7 @@
 ---
 title: CS2030 Programming Methodology 2
 date: '2019-08-24'
-spoiler: 
+spoiler: Fun stuff 😝
 ---
 
 - [Lecture 1](#lecture-1)
