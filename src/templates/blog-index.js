@@ -71,7 +71,7 @@ class BlogIndexTemplate extends React.PureComponent {
 
   componentWillUnmount() {
     localStorage.setItem('tab', this.state.tab);
-    localStorage.setItem('modulesTab', this.state.tab);
+    localStorage.setItem('modulesTab', this.state.modulesTab);
   }
 
   getPosts(postType) {
