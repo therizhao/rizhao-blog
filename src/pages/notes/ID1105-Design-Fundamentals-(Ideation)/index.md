@@ -380,4 +380,4 @@ spoiler: On generating random ideas...
 
 ## Lesson 04
 
-- Presentation: https://nus-design-ideation-pres01.netlify.com/1
+- [Presentation on how to reduce food waste](https://nus-design-ideation-pres01.netlify.com/1)
