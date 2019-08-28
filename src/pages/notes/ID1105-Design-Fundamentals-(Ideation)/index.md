@@ -9,6 +9,7 @@ spoiler: On generating random ideas...
 - [Lesson 02](#lesson-02)
   - [Mashup of user types and places](#mashup-of-user-types-and-places)
 - [Lesson 03](#lesson-03)
+- [Lesson 04](#lesson-04)
 
 ## Lesson 01
 
@@ -376,3 +377,7 @@ spoiler: On generating random ideas...
   - getting from ideas to practical solutions
     - do you kill ideas before starting
   - business problems?
+
+## Lesson 04
+
+- Presentation: https://nus-design-ideation-pres01.netlify.com/1
