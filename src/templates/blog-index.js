@@ -69,9 +69,14 @@ class BlogIndexTemplate extends React.PureComponent {
     });
   }
 
-  componentWillUnmount() {
-    localStorage.setItem('tab', this.state.tab);
-    localStorage.setItem('modulesTab', this.state.modulesTab);
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.tab !== this.state.tab) {
+      localStorage.setItem('tab', this.state.tab);
+    }
+
+    if (prevState.modulesTab !== this.state.modulesTab) {
+      localStorage.setItem('modulesTab', this.state.modulesTab);
+    }
   }
 
   getPosts(postType) {
