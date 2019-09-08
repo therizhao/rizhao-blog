@@ -24,7 +24,7 @@ spoiler: The definition of fascinating is to be defined.
     - [Ingredients](#ingredients-2)
     - [Steps](#steps-2)
   - [Results](#results)
-- [L01 Kueh Evaluation Day](#l01-kueh-evaluation-day)
+- [L01 Kueh Evaluation Day 19-08-19](#l01-kueh-evaluation-day-19-08-19)
   - [101 ways to screw up a Kueh](#101-ways-to-screw-up-a-kueh)
   - [Events](#events)
 - [E03 25-08-19](#e03-25-08-19)
@@ -32,6 +32,25 @@ spoiler: The definition of fascinating is to be defined.
     - [Steps](#steps-3)
   - [108 Cheetos Kueh](#108-cheetos-kueh)
   - [I09 Strawberry Cherry Fish Rice Kueh](#i09-strawberry-cherry-fish-rice-kueh)
+- [L02 Kueh Evaluation Day 26-08-19](#l02-kueh-evaluation-day-26-08-19)
+- [E04 01-09-19](#e04-01-09-19)
+  - [Steps](#steps-4)
+  - [I10 Rock Kueh](#i10-rock-kueh)
+  - [I11 Tumeric Kueh](#i11-tumeric-kueh)
+  - [I12 Tapioca Balls Kueh](#i12-tapioca-balls-kueh)
+  - [I13 Sticky Note Kueh](#i13-sticky-note-kueh)
+  - [I14 Seed Husk Kueh](#i14-seed-husk-kueh)
+  - [I15 Egg Custard Powder Kueh](#i15-egg-custard-powder-kueh)
+  - [I16 Branch Kueh](#i16-branch-kueh)
+  - [I17 Baking Soda Kueh](#i17-baking-soda-kueh)
+  - [I18 Rice Powder Kueh](#i18-rice-powder-kueh)
+  - [I19 Plastic Leaf Kueh](#i19-plastic-leaf-kueh)
+- [L03 Kueh Evaluation Day 02-09-19](#l03-kueh-evaluation-day-02-09-19)
+- [E05 07-09-19](#e05-07-09-19)
+  - [I29 Medimum Rock Kueh Lamp (Failed)](#i29-medimum-rock-kueh-lamp-failed)
+  - [I29 XL Rock Kueh Lamp (Failed)](#i29-xl-rock-kueh-lamp-failed)
+  - [I30 Rice Tapioca Leaf Kueh Lamp (Failed)](#i30-rice-tapioca-leaf-kueh-lamp-failed)
+  - [I31 Sago Powder Folded Leaf Kueh Lamp](#i31-sago-powder-folded-leaf-kueh-lamp)
 
 ## Introduction
 
@@ -263,7 +282,7 @@ According to the professor, I should not have a plan. This project is an explora
 
 ![I02](29.jpg)
 
-## L01 Kueh Evaluation Day
+## L01 Kueh Evaluation Day 19-08-19
 
 - Immediately after I completed my 2 kuehs, I went for my first Kueh evaluation session
 - The results are surprising 😍
@@ -316,6 +335,15 @@ For today, we will try to make as many different types of kueh as possible 😝.
 
 ![steam](38.jpg)
 
+![](39.jpg)
+
+![](40.jpg)
+
+![](41.jpg)
+
+![](42.jpg)
+
+![](46.jpg)
 
 ### 108 Cheetos Kueh
 
@@ -326,6 +354,8 @@ For today, we will try to make as many different types of kueh as possible 😝.
 5. Add 1 grape
 6. Steamed for 20 mins
 
+![](43.jpg)
+
 ### I09 Strawberry Cherry Fish Rice Kueh
 
 1. Added 6 tablespoons of tapioca starch
@@ -335,5 +365,162 @@ For today, we will try to make as many different types of kueh as possible 😝.
 5. Added half a piece of dory fish from RVRC Sunday dinner
 6. Added added quinoa from RVRC Sunday dinner
 7. Steamed for 20 mins
+
+![](44.jpg)
+
+## L02 Kueh Evaluation Day 26-08-19
+
+Kuehs are starting to get fascinating...
+
+![](47.jpg)
+
+![](48.jpg)
+
+![](49.jpg)
+
+![](51.jpg)
+
+![](52.jpg)
+
+![](53.jpg)
+
+![](54.jpg)
+
+![](55.jpg)
+
+![](56.jpg)
+
+![](57.jpg)
+
+![](58.jpg)
+
+![](59.jpg)
+
+![](60.jpg)
+
+![](61.jpg)
+
+![](62.jpg)
+
+![](63.jpg)
+
+![](64.jpg)
+
+![](65.jpg)
+
+## E04 01-09-19
+
+- For this experiment, I want to explore the variations of negative imprints different objects have on a kueh.
+
+### Steps
+
+1. Add `1 : 1 : 1` ratio of rice flour, tapioca flour and water
+2. Mix evenly until a gooey mixture is formed
+3. Apply mixture over object X
+4. Steam them in a leaf
+
+### I10 Rock Kueh
+
+![](75.jpg)
+
+### I11 Tumeric Kueh
+
+![](80.jpg)
+
+### I12 Tapioca Balls Kueh
+
+![](76.jpg)
+
+### I13 Sticky Note Kueh
+
+![](77.jpg)
+
+### I14 Seed Husk Kueh
+
+![](78.jpg)
+
+### I15 Egg Custard Powder Kueh
+
+![](79.jpg)
+
+### I16 Branch Kueh
+
+![](81.jpg)
+
+### I17 Baking Soda Kueh
+
+![](82.jpg)
+
+### I18 Rice Powder Kueh
+
+![](83.jpg)
+
+### I19 Plastic Leaf Kueh
+
+![](84.jpg)
+
+## L03 Kueh Evaluation Day 02-09-19
+
+*Going for depth...*
+
+![](85.jpg)
+![](86.jpg)
+![](87.jpg)
+![](88.jpg)
+
+
+## E05 07-09-19
+
+- After the last lesson, I concluded that I want to focus on making an organic form
+- While researching on my designer assigned for ID1105, I saw this very interesting lamp
+  
+![](https://media.fds.fi/product_image/800/13Flos_AK.jpg)
+
+*What if... I can make a Kueh Lamp 🤯*
+
+
+### I29 Medimum Rock Kueh Lamp (Failed)
+
+1. Founed a rock
+2. Added `3 : 2 : 2` ratio of rice flour, potato starch and water
+3. Mixed evenly until a gooey paste was formed
+4. Applied paste evenly on the rock
+5. Steamed for 5 min
+6. Let it cool for 10 min
+7. Transferred rock with Kueh into an oven and baked it at 180 degreees for 10 min
+8. Transferred rock into a refrigerator and left it overnight
+9. Cut kueh into half
+10. Tried to stick kueh together with more kueh but failed
+
+### I29 XL Rock Kueh Lamp (Failed)
+
+1. Found a huge rock
+2. Added `3 : 2 : 2` ratio of rice flour, potato starch and water
+3. Mixed evenly until a gooey paste was formed
+4. Applied paste evenly on the rock
+5. Baked for 1 min to let off some moisture
+6. Steamed for 5 min
+7. Let it cool for 10 min
+8. It failed as it was impossible to remove the kueh from the rock
+
+### I30 Rice Tapioca Leaf Kueh Lamp (Failed)
+
+1. Found a huge leaf
+2. Mixed `2:1:1` ratio of rice flour, tapioca starch and water
+3. Spreaded mixture over leaf
+4. Steamed for 10 min
+5. Let cool for 10 min
+6. Tried to remove the Kueh and fold it but it was to soft to stand on its own
+
+
+### I31 Sago Powder Folded Leaf Kueh Lamp
+
+1. Find a huge leaf
+2. Mix `1:1:1` ratio of sago powder, potato starch and water
+3. Spread mixture thinly over leaf
+4. Steam for 10 min
+5. Let cool for 5 min
+6. Fold leaf to let kueh stand (Use rocks as support structure)
+7. Let cool overnight
 
 ...*This space will be filled with my next few experiments*...
