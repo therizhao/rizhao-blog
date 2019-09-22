@@ -8,9 +8,8 @@ spoiler: The definition of fascinating is to be defined.
 
 - [Introduction](#introduction)
   - [Task Requirements:](#task-requirements)
-- [Plan](#plan)
-  - [My Rough Plan](#my-rough-plan)
-  - [Abbrevations](#abbrevations)
+- [My Rough Plan](#my-rough-plan)
+- [Abbrevations](#abbrevations)
 - [E01 17-08-19](#e01-17-08-19)
   - [I01 Basic Kueh](#i01-basic-kueh)
     - [Ingredients](#ingredients)
@@ -47,14 +46,18 @@ spoiler: The definition of fascinating is to be defined.
   - [I19 Plastic Leaf Kueh](#i19-plastic-leaf-kueh)
 - [L03 Kueh Evaluation Day 02-09-19](#l03-kueh-evaluation-day-02-09-19)
 - [E05 07-09-19](#e05-07-09-19)
-  - [I29 Medimum Rock Kueh Lamp (Failed)](#i29-medimum-rock-kueh-lamp-failed)
-  - [I29 XL Rock Kueh Lamp (Failed)](#i29-xl-rock-kueh-lamp-failed)
-  - [I30 Rice Tapioca Leaf Kueh Lamp (Failed)](#i30-rice-tapioca-leaf-kueh-lamp-failed)
-  - [I31 Sago Powder Folded Leaf Kueh Lamp](#i31-sago-powder-folded-leaf-kueh-lamp)
+  - [I20 Medimum Rock Kueh Lamp](#i20-medimum-rock-kueh-lamp)
+  - [I21 XL Rock Kueh Lamp](#i21-xl-rock-kueh-lamp)
+  - [I22 Rice Tapioca Leaf Kueh Lamp](#i22-rice-tapioca-leaf-kueh-lamp)
+  - [I23 Sago Powder Folded Leaf Kueh Lamp](#i23-sago-powder-folded-leaf-kueh-lamp)
+- [L03 Kueh Evaluation Day 09-09-19](#l03-kueh-evaluation-day-09-09-19)
+- [E06 16-09-19](#e06-16-09-19)
+  - [I24-25 Sago leaf Kueh](#i24-25-sago-leaf-kueh)
+    - [I24 Sculputure-like Kueh](#i24-sculputure-like-kueh)
+    - [I25 Web-like Kueh](#i25-web-like-kueh)
+    - [Choosing the final piece](#choosing-the-final-piece)
 
 ## Introduction
-
-This is the weirdest assignment I have received to date. I will be documenting the process here.
 
 ### Task Requirements:
 
@@ -73,11 +76,7 @@ This is the weirdest assignment I have received to date. I will be documenting t
   - Documentation of Explorations (Is done on this page)
   - Reflection Piece
 
-## Plan
-
-According to the professor, I should not have a plan. This project is an exploration process. I will however still have a rough plan to prevent things from going out of hand.
-
-### My Rough Plan
+## My Rough Plan
 
 ![Steps](1.png)
 
@@ -85,7 +84,7 @@ According to the professor, I should not have a plan. This project is an explora
 
 - I will try to eat finish what I have made 😢
 
-### Abbrevations
+## Abbrevations
 
 - **E**: Stands for each experiment day
 - **I**: Stands for each iteration
@@ -472,16 +471,16 @@ Kuehs are starting to get fascinating...
 ## E05 07-09-19
 
 - After the last lesson, I concluded that I want to focus on making an organic form
-- While researching on my designer assigned for ID1105, I saw this very interesting lamp
+- While researching on my designer assigned for ID1223, I saw this very interesting lamp
   
 ![](https://media.fds.fi/product_image/800/13Flos_AK.jpg)
 
 *What if... I can make a Kueh Lamp 🤯*
 
 
-### I29 Medimum Rock Kueh Lamp (Failed)
+### I20 Medimum Rock Kueh Lamp
 
-1. Founed a rock
+1. Found a rock
 2. Added `3 : 2 : 2` ratio of rice flour, potato starch and water
 3. Mixed evenly until a gooey paste was formed
 4. Applied paste evenly on the rock
@@ -492,18 +491,24 @@ Kuehs are starting to get fascinating...
 9. Cut kueh into half
 10. Tried to stick kueh together with more kueh but failed
 
-### I29 XL Rock Kueh Lamp (Failed)
+![](92.jpg)
+
+### I21 XL Rock Kueh Lamp
 
 1. Found a huge rock
 2. Added `3 : 2 : 2` ratio of rice flour, potato starch and water
 3. Mixed evenly until a gooey paste was formed
 4. Applied paste evenly on the rock
+![](118.jpg)
 5. Baked for 1 min to let off some moisture
 6. Steamed for 5 min
 7. Let it cool for 10 min
-8. It failed as it was impossible to remove the kueh from the rock
+8. Baked for 5 min
+![](98.jpg)
+9. It failed as it was impossible to remove the kueh from the rock
+![](99.jpg)
 
-### I30 Rice Tapioca Leaf Kueh Lamp (Failed)
+### I22 Rice Tapioca Leaf Kueh Lamp
 
 1. Found a huge leaf
 2. Mixed `2:1:1` ratio of rice flour, tapioca starch and water
@@ -512,8 +517,7 @@ Kuehs are starting to get fascinating...
 5. Let cool for 10 min
 6. Tried to remove the Kueh and fold it but it was to soft to stand on its own
 
-
-### I31 Sago Powder Folded Leaf Kueh Lamp
+### I23 Sago Powder Folded Leaf Kueh Lamp
 
 1. Find a huge leaf
 2. Mix `1:1:1` ratio of sago powder, potato starch and water
@@ -523,4 +527,65 @@ Kuehs are starting to get fascinating...
 6. Fold leaf to let kueh stand (Use rocks as support structure)
 7. Let cool overnight
 
-...*This space will be filled with my next few experiments*...
+![](100.jpg)
+
+*I finally achieved the 3D quality 🎉*
+
+## L03 Kueh Evaluation Day 09-09-19
+
+![](93.jpg)
+![](101.jpg)
+![](102.jpg)
+![](103.jpg)
+![](104.jpg)
+![](105.jpg)
+
+## E06 16-09-19
+
+- After the last lesson, I learnt that we can use a light source as plating
+- I realised however then I can continue working on the 3D quality of the kueh
+- For this experiment, I restricted my ingredients to solely sago powder
+  - as I realised that it's tough construction when dried makes it ideal for making large structures
+- The only variation between each kueh is the way I poured the flour mixture onto the leaf
+
+### I24-25 Sago leaf Kueh
+
+1. Added 200g sago powder and 200ml water into a container and mix evenly
+2. Poured mixture through a sieve into another container
+3. **Poured mixture onto leaf**
+4. Steamed mixture with leaf
+5. Laid steamed Kueh with leaf on a coconut husk
+6. Waited for 2 days
+7. Removed kueh from leaf
+
+#### I24 Sculputure-like Kueh
+
+- Mixture was poured in a drip-like manner
+
+![](122.jpg)
+
+![](110.jpg)
+
+#### I25 Web-like Kueh
+
+- Mixture was spread out evenly around the leaf
+
+![](125.jpg)
+
+![](126.jpg)
+
+![](109.jpg)
+
+#### Choosing the final piece
+
+- I24 was the first choice
+- However, it shrivelled after I removed it from the mold too early
+- I experimeneted with a few more Kuehs but most of them cracked when I am trying it to peel if off the leaf
+- In the end, I decided to go with I25
+
+
+![](124.jpg)
+
+![](123.jpg)
+
+*The end 😢*
