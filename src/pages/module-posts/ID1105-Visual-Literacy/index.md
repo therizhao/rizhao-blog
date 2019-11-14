@@ -4,6 +4,8 @@ date: '2019-11-15'
 spoiler: Visual literacy is unlocking the mind to see.
 ---
 
+![my book](book.jpeg)
+
 Visual literacy is unlocking the mind to see.
 
 Paper and emptiness.
