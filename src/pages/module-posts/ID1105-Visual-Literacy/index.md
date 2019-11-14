@@ -6,9 +6,6 @@ spoiler: Visual literacy is unlocking the mind to see.
 
 ![my book](book.jpeg)
 
-Paper and emptiness.
-
-To know and not know.
 
 **Link to download pdf:**
 
