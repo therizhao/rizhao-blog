@@ -78,14 +78,17 @@ const skills = [
   'Adobe Illustrator',
   'Scrum',
   'Agile Development',
+  'FramerX',
+  'Sketch',
+  'Prototyping',
 ];
 
 const About = () => (
   <AboutWrapper>
     <h2>Intro</h2>
     <p>
-      Hello, I am Ri Zhao. I am an entrepreneur, a software engineer and a
-      design student. My hobby is running and joining startups.
+      Hello, I am Ri Zhao. I am a designer, software engineer and entrepreneur.
+      My hobby is running and joining startups.
     </p>
     <h2>Experience</h2>
     <Card>
