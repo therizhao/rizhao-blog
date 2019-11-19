@@ -99,9 +99,16 @@ const About = () => (
         <span>July 2017 - Present</span>
       </CardHeader>
       <ul>
-        <li>Built and marketed the product from scratch </li>
+        <li>
+          Conducted user research, designed user flows and created UI mockups
+        </li>
+        <li>
+          Developed and implemented codebase with feature specs including a
+          flexible client engine, server backend, database, payment, Telegram
+          interface, social API integration, etc
+        </li>
         <li>Leading a cross-functional team of 6 using Scrum methodologies </li>
-        <li>Web app with > 4000 users and growing</li>
+        <li>Web app with > 6000 users and growing</li>
       </ul>
     </Card>
     <Card>
