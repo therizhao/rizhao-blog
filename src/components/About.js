@@ -107,8 +107,13 @@ const About = () => (
           flexible client engine, server backend, database, payment, Telegram
           interface, social API integration, etc
         </li>
-        <li>Leading a cross-functional team of 6 using Scrum methodologies </li>
-        <li>Web app with > 6000 users and growing</li>
+        <li>Ran advertisements on Facebook Ads and Google Ads</li>
+        <li>Performed analytics and made key business decisions</li>
+        <li>
+          Hired and managed a team of 6 software engineers and business
+          developers
+        </li>
+        <li>> 6000 users and growing</li>
       </ul>
     </Card>
     <Card>
