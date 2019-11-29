@@ -4,6 +4,10 @@ date: '2019-08-15'
 spoiler: 📖
 ---
 
+Mindmap Summary:
+
+[https://whimsical.com/HP7yawPoe3skieqgicjMEZ](https://whimsical.com/HP7yawPoe3skieqgicjMEZ)
+
 - [Lecture 1](#lecture-1)
   - [Submission and Assessment Criteria](#submission-and-assessment-criteria)
   - [Objectives](#objectives)
