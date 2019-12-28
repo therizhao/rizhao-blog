@@ -171,5 +171,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
   ],
 };
