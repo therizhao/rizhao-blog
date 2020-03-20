@@ -1,5 +1,5 @@
 body {
-  --pink: rgb(255, 167, 196);
+  --pink: #4a61dd
   background-color: var(--bg);
 }
 

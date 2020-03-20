@@ -120,7 +120,7 @@ I spent my days in camp bugging _almost every person_ I can find, asking them to
 
 I was determined to build the best user experience I could. Everyday was a step closer to the dream.
 
-My** quest was interrupted by our final military exercise** in Australia. I spent 4 weeks away from my computer, in the sparse Australian desert.
+My quest was interrupted by our final military exercise in Australia. I spent 4 weeks away from my computer, in the sparse Australian desert.
 
 It was a separate reality from the one I was living in. _I followed orders, walked through chilly nights_ and _slept in cramped Broncos_.
 
