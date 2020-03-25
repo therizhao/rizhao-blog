@@ -28,6 +28,7 @@ class Layout extends React.Component {
             ...scale(0.75),
             marginBottom: 0,
             marginTop: 0,
+            fontFamily: 'acumin-pro',
           }}
         >
           <Link
@@ -46,7 +47,7 @@ class Layout extends React.Component {
       return (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'acumin-pro, sans-serif',
             marginTop: 0,
             marginBottom: 0,
             height: 42, // because

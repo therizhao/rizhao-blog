@@ -31,7 +31,7 @@ const Tabs = styled.div`
 
 const Tab = styled.div`
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: acumin-pro;
   cursor: pointer;
   transition: all 0.2s;
   color: var(--textTitle);
@@ -107,7 +107,7 @@ class BlogIndexTemplate extends React.PureComponent {
             <header>
               <h3
                 style={{
-                  fontFamily: 'Montserrat, sans-serif',
+                  fontFamily: 'acumin-pro, sans-serif',
                   color: 'var(--postLink)',
                   fontSize: rhythm(1),
                   marginBottom: rhythm(1 / 4),
@@ -235,17 +235,14 @@ class BlogIndexTemplate extends React.PureComponent {
 export default BlogIndexTemplate;
 
 export const pageQuery = graphql`
-  query($langKey: String!) {
+  query {
     site {
       siteMetadata {
         title
         description
       }
     }
-    allMarkdownRemark(
-      filter: { fields: { langKey: { eq: $langKey } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           fields {

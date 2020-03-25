@@ -11,7 +11,7 @@ class Bio extends React.Component {
           marginBottom: rhythm(2),
         }}
       >
-        <p style={{ maxWidth: 310, fontFamily: 'Montserrat' }}>
+        <p style={{ maxWidth: 310, fontFamily: 'acumin-pro' }}>
           don't forget to dream 🌥
         </p>
       </div>

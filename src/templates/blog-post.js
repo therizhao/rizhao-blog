@@ -4,7 +4,6 @@ import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import get from 'lodash/get';
-import '../fonts/fonts-post.css';
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
@@ -12,11 +11,6 @@ import Signup from '../components/Signup';
 import Panel from '../components/Panel';
 import { formatPostDate, formatReadingTime, media } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
-import {
-  codeToLanguage,
-  createLanguageLink,
-  loadFontsForCode,
-} from '../utils/i18n';
 import { Fade } from '@material-ui/core';
 
 const Content = styled.div`
@@ -116,43 +110,13 @@ class BlogPostTemplate extends React.Component {
       translations,
       translatedLinks,
     } = this.props.pageContext;
-    const lang = post.fields.langKey;
 
     // Replace original links with translated when available.
     let html = post.html;
-    translatedLinks.forEach(link => {
-      // jeez
-      function escapeRegExp(str) {
-        return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      }
-      let translatedLink = '/' + lang + link;
-      html = html.replace(
-        new RegExp('"' + escapeRegExp(link) + '"', 'g'),
-        '"' + translatedLink + '"'
-      );
-    });
-
-    translations = translations.slice();
-    translations.sort((a, b) => {
-      return codeToLanguage(a) < codeToLanguage(b) ? -1 : 1;
-    });
-
-    loadFontsForCode(lang);
-    // TODO: this curried function is annoying
-    const languageLink = createLanguageLink(slug, lang);
-    const enSlug = languageLink('en');
-    const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/src/pages/${enSlug.slice(
-      1,
-      enSlug.length - 1
-    )}/index.md`;
-    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
-    )}`;
 
     return (
       <Layout location={this.props.location} title={`< ${siteTitle}`}>
         <SEO
-          lang={lang}
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
           slug={post.fields.slug}
@@ -178,7 +142,7 @@ class BlogPostTemplate extends React.Component {
                   marginTop: rhythm(-4 / 5),
                 }}
               >
-                {formatPostDate(post.frontmatter.date, lang)}
+                {formatPostDate(post.frontmatter.date)}
                 {` • ${formatReadingTime(post.timeToRead)}`}
               </p>
             </header>
@@ -195,7 +159,7 @@ class BlogPostTemplate extends React.Component {
           />
           <h3
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: 'acumin-pro, sans-serif',
               marginTop: rhythm(0.25),
             }}
           >

@@ -1,5 +1,7 @@
 body {
-  --pink: #4a61dd
+  --pink: #4a61dd;
+  font-family: acumin-pro, sans-serif;
+  font-size: 16px;
   background-color: var(--bg);
 }
 

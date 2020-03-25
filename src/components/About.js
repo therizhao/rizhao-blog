@@ -5,7 +5,7 @@ const AboutWrapper = styled.div`
   margin-top: 50px;
 
   & > h2 {
-    font-family: Montserrat, sans-serif;
+    font-family: acumin-pro, sans-serif;
     margin-bottom: 15px;
     margin-top: 0;
   }
@@ -15,7 +15,7 @@ const CardHeader = styled.div`
   margin-bottom: 10px;
 
   h3 {
-    font-family: Montserrat, sans-serif;
+    font-family: acumin-pro, sans-serif;
     margin-top: 0;
     margin-bottom: 15px;
   }
