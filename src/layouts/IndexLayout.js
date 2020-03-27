@@ -18,7 +18,7 @@ const Tab = styled(Link).attrs({
   text-transform: capitalize;
   cursor: pointer;
   transition: all 0.2s;
-  color: var(--textGray);
+  color: var(--gray);
   border-bottom: none;
 
   &:not(:last-child) {

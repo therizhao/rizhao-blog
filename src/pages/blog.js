@@ -12,6 +12,9 @@ const BlogLink = styled(Link)`
   ${media.greaterThan('lg')`
     margin-bottom: 2.3rem;
   `}
+  ${media.lessThan('lg')`
+    margin-bottom: -2.3rem;
+  `}
 `;
 
 const Blog = () => {

@@ -77,6 +77,12 @@ exports.onCreateNode = ({ node, actions }) => {
       value: path.basename(path.dirname(_.get(node, 'fileAbsolutePath'))),
     });
 
+    createNodeField({
+      node,
+      name: `slug`,
+      value: node.frontmatter.title,
+    });
+
     const markdown = node.internal.content;
     let maybeAbsoluteLinks = [];
     let linkRe = /\]\((\/[^\)]+\/)\)/g;

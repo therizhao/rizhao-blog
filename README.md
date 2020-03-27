@@ -1,16 +1,30 @@
 # Changelog
 
-## 2.0.1 - 27 Mar 2020
+Todo
 
-- [ ] Update content for homepage
-- [ ] Rewrite skills
-- [ ] Fix the next button in blog-post
-- [ ] Always show right first then left
-- [ ] Left should shift left
+- [ ] Remove html.js
+- [ ] Fix site headers
 - [ ] Fix seo for all
+  - [ ] Fix seo component
 - [ ] Change favicon to white circle
-- [ ] Add bubbles from don't forget to dream
-[ ] Fix eslint
+- [ ] Fix eslint
+- [ ] Add ie prefix to prevent breakage for canvas element
+
+## 2.1.2 - 27 Mar 2020
+
+
+## 2.1.1 - 27 Mar 2020
+
+
+## 2.1.0 - 27 Mar 2020
+
+- [x] Fix window not found error in production
+- [x] Remove social tags in seo component
+- [x] Add bubbles for don't forget to dream
+- [x] Update content for homepage
+  - [x] Rewrite skills
+- [x] Fix the next button in blog-post
+  - [x] Always show right first then left
  
 ## 2.0.0 - 25 Mar 2020
 
@@ -64,7 +78,7 @@
   - [x] Remove state
   - [x] Blog posts
     - [x] Fix back links to go back to 
-- [ ] Update content for homepage
+- [x] Update content for homepage
   - [x] Add content for windspeed
 - [x] Add contact
 - [x] Check mobile

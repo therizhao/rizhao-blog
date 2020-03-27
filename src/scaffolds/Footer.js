@@ -8,15 +8,21 @@ import styled from 'styled-components';
 const Wrapper = styled.footer`
   margin-top: ${rhythm(2.5)};
   padding-top: ${rhythm(1)};
-  color: var(--textGray);
+  color: var(--gray);
 
   ${media.greaterThan('lg')`
     padding-top: 5rem;
   `}
 
+  ${media.lessThan('350px')`
+    a {
+      font-size: 1.3rem;
+    }
+  `}
+
   a {
     border-bottom: none;
-    color: var(--textGray);
+    color: var(--gray);
     padding: 0 2px;
   }
 
@@ -25,18 +31,20 @@ const Wrapper = styled.footer`
   }
 
   a:hover {
-    color: var(--textNormal);
+    color: var(--black);
   }
 `;
 
-const Footer = () => {
+const Footer = ({ className, style }) => {
   return (
-    <Wrapper>
-      {useMediaQuery(`(max-width: ${breakpoints.lg})`) && (
-        <div style={{ float: 'right' }}>
-          <Link to="/contact">Contact</Link>
-        </div>
-      )}
+    <Wrapper className={className} style={style}>
+      {typeof window !== `undefined` &&
+        window.location.pathname !== '/contact' &&
+        useMediaQuery(`(max-width: ${breakpoints.lg})`) && (
+          <div style={{ float: 'right' }}>
+            <Link to="/contact">Contact</Link>
+          </div>
+        )}
       <a
         href="https://github.com/therizhao"
         target="_blank"

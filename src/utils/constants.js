@@ -4,3 +4,5 @@ export const tabsData = [
   { label: 'blog', path: '/blog' },
   { label: 'contact', path: '/contact' },
 ];
+
+export const phoneNumber = 82186566;

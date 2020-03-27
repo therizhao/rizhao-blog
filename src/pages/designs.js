@@ -7,7 +7,7 @@ const Caption = styled.p`
   font-size: 1.3rem;
   margin-top: 1.2rem;
   padding-left: 0.3rem;
-  color: var(--textGray);
+  color: var(--gray);
 `;
 
 const Designs = () => {

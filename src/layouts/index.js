@@ -28,7 +28,7 @@ const Layout = ({ location, children }) => {
   return (
     <div
       style={{
-        color: 'var(--textNormal)',
+        color: 'var(--black)',
         background: 'var(--bg)',
         transition: 'color 0.2s ease-out, background 0.2s ease-out',
         minHeight: '100vh',

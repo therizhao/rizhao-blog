@@ -9,9 +9,26 @@ const AboutWrapper = styled.div`
     }
   `}
 
-  & > h2 {
-    margin-bottom: 15px;
+  &&& h2 {
+    /* margin-bottom: 15px; */
     margin-top: 0;
+  }
+
+  &&& h3 {
+    margin-top: 2rem;
+
+    ${media.greaterThan('lg')`
+      margin-top: 2.2rem;
+    `}
+  }
+
+  &&& h4 {
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+
+    ${media.greaterThan('lg')`
+      margin-bottom: 1.5rem;
+    `}
   }
 `;
 
@@ -19,7 +36,6 @@ const CardHeader = styled.div`
   margin-bottom: 10px;
 
   h3 {
-    margin-top: 0;
     margin-bottom: 15px;
   }
 
@@ -33,14 +49,6 @@ const Card = styled.div`
   margin-top: 2rem;
   border-radius: 6px;
 
-  &:first-child {
-    margin-top: 20px;
-  }
-
-  ${media.greaterThan('lg')`
-    margin-top: 2.2rem;
-  `}
-
   ul {
     line-height: 30px;
   }
@@ -50,42 +58,11 @@ const Card = styled.div`
   }
 `;
 
-const Bubble = styled.span`
-  display: inline-block;
-  padding: 4px 8px;
-  margin-bottom: 10px;
-  margin-top: 0;
-  background-color: #fff;
-  &:not(:last-child) {
-    margin-right: 5px;
+const SkillsWrapper = styled.div`
+  &&& h3:not(:first-child) {
+    margin-top: 2.4rem;
   }
-  color: #222;
-  border-radius: 30px;
 `;
-
-const skills = [
-  'Typescript',
-  'React.js',
-  'Node.js',
-  'Three.js',
-  'MongoDB',
-  'Express',
-  'Python',
-  'HTML',
-  'CSS',
-  'Java',
-  'Javascript',
-  'UI/UX Design',
-  'Figma',
-  'Adobe InDesign',
-  'Adobe Photoshop',
-  'Adobe Illustrator',
-  'Scrum',
-  'Agile Development',
-  'FramerX',
-  'Sketch',
-  'Prototyping',
-];
 
 const About = () => (
   <AboutWrapper>
@@ -152,13 +129,59 @@ const About = () => (
         <li>Worked with Python Flask backend</li>
       </ul>
     </Card>
-    {/* <h2>Skills</h2>
-    <Card>
-      {skills.map(skill => (
-        <Bubble>{skill}</Bubble>
-      ))}
-    </Card> */}
-    <p>Childishy, my goal in life is to make an impact in this world.</p>
+    <SkillsWrapper>
+      <h2>Skills</h2>
+      <h3>Software Engineering</h3>
+      <h4>Front-end Web Development</h4>
+      <ul>
+        <li>React.js</li>
+        <li>Storybook.js</li>
+        <li>Enzyme.js</li>
+        <li>Jest.js</li>
+        <li>Angular</li>
+      </ul>
+      <h4>Back-end Web Development</h4>
+      <ul>
+        <li>Node.js</li>
+        <li>Django</li>
+        <li>Flask</li>
+        <li>MongoDB</li>
+      </ul>
+      <h4>Languages</h4>
+      <ul>
+        <li>Typescript</li>
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>C</li>
+      </ul>
+      <h4>Project Management</h4>
+      <ul>
+        <li>Scrum</li>
+        <li>Agile Development</li>
+      </ul>
+      <h3>Design</h3>
+      <h4>User Interface</h4>
+      <ul>
+        <li>UI Design</li>
+        <li>User Research</li>
+        <li>Figma</li>
+        <li>Sketch</li>
+      </ul>
+      <h4>Print</h4>
+      <ul>
+        <li>Adobe InDesign</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe Photoshop</li>
+      </ul>
+      <h4>Industrial</h4>
+      <ul>
+        <li>Rhino3D</li>
+        <li>Keyshot</li>
+      </ul>
+    </SkillsWrapper>
   </AboutWrapper>
 );
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import PageFooter from '../shared/PageFooter';
+import Footer from '../scaffolds/Footer';
 
 // Where to head back to given the current pathname
-const BACK_LINKS = {
+const backLinks = {
   '/modules': '/designs',
   '/designs': '/designs',
   '/blog': '/blog',
@@ -11,8 +12,8 @@ const BACK_LINKS = {
 
 const PostLayout = ({ children, location }) => {
   const backTo =
-    BACK_LINKS[
-      Object.keys(BACK_LINKS).find(path => location.pathname.includes(path))
+    backLinks[
+      Object.keys(backLinks).find(path => location.pathname.includes(path))
     ];
 
   return (
@@ -38,6 +39,7 @@ const PostLayout = ({ children, location }) => {
       </h3>
       <main style={{ marginTop: '3rem' }}>{children}</main>
       <PageFooter to={backTo} />
+      <Footer style={{ marginTop: 0 }} />
     </>
   );
 };

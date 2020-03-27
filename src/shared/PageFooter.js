@@ -24,7 +24,6 @@ const PageFooter = ({ to }) => (
     <div
       style={{
         display: 'flex',
-        marginBottom: rhythm(2),
       }}
     >
       <p style={{ maxWidth: 310 }}>don't forget to dream</p>

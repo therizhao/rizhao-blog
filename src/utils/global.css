@@ -50,6 +50,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  position: relative;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -77,6 +78,13 @@ h3 {
   font-size: 1.6rem;
 }
 
+h4 {
+  font-size: 1.4rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
 @media screen and (min-width: 481px) {
   ul {
     padding-left: 17px;
@@ -96,14 +104,6 @@ h3 {
     margin-top: 0;
   }
 
-  /*h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.6rem;
-  } */
-
   p {
     line-height: 2.3rem;
   }
@@ -113,15 +113,17 @@ body {
   font-family: 'Acumin Pro', sans-serif;
   box-sizing: border-box;
   background-color: var(--bg);
+  min-height: 100vh;
 }
 
 body.light,
 body.dark {
+  --black: #1a1a1a;
+  --gray: #707070;
+
   --bg: #fff;
   --header: #444555;
-  --textNormal: #1a1a1a;
   --textTitle: #1a1a1a;
-  --textGray: #707070;
   --textLink: #1a1a1a;
   --postLink: var(--textTitle);
   --hr: hsla(0, 0%, 0%, 0.2);
@@ -352,5 +354,5 @@ a {
   transition: box-shadow 0.2s;
   box-shadow: none;
   padding-bottom: 1px;
-  border-bottom: 0.5px solid var(--textNormal);
+  border-bottom: 0.5px solid var(--black);
 }

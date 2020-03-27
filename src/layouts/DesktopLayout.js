@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { tabsData } from '../utils/constants';
 import Footer from '../scaffolds/Footer';
+import Bubbler from '../shared/Bubbler';
 
 const MainWrapper = styled.div`
   margin: 0 auto;
@@ -11,6 +12,21 @@ const MainWrapper = styled.div`
   padding-top: 5rem;
   padding-bottom: 7rem;
   max-width: 100rem;
+`;
+
+const BubbleSource = styled.p`
+  color: var(--gray);
+  font-size: 1rem;
+  cursor: default;
+  transition: all 0.2s;
+  margin: 0;
+  padding-bottom: 19.6px;
+  padding-left: 3rem;
+  padding-right: 1rem;
+
+  &:hover {
+    color: var(--black);
+  }
 `;
 
 const BodyWrapper = styled.div`
@@ -37,7 +53,7 @@ const Tab = styled(Link).attrs({
   text-transform: capitalize;
   cursor: pointer;
   transition: all 0.2s;
-  color: var(--textGray);
+  color: var(--gray);
   border-bottom: none;
   margin-bottom: 1rem;
 
@@ -79,15 +95,9 @@ const DesktopLayout = ({ children }) => {
             therizhao
           </Link>
         </h1>
-        <p
-          style={{
-            color: 'var(--textGray)',
-            fontSize: '1rem',
-            cursor: 'wait',
-          }}
-        >
-          don't forget to dream
-        </p>
+        <Bubbler>
+          <BubbleSource>don't forget to dream</BubbleSource>
+        </Bubbler>
       </div>
       <BodyWrapper>
         <Tabs>

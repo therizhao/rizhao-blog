@@ -43,7 +43,7 @@ const Content = styled.div`
 
   .caption p {
     display: block;
-    color: var(--textGray);
+    color: var(--gray);
     font-size: 1.2rem;
     margin-top: -0.4rem;
   }
@@ -149,28 +149,22 @@ class BlogPostTemplate extends React.Component {
                 flexWrap: 'wrap',
                 justifyContent: 'space-between',
                 listStyle: 'none',
+                flexDirection: 'row-reverse',
                 padding: 0,
                 marginLeft: 0,
               }}
             >
-              <li>
-                {previous && (
-                  <Link
-                    to={previous.fields.slug}
-                    rel="prev"
-                    style={{ marginRight: 20 }}
-                  >
-                    ← {previous.frontmatter.title}
-                  </Link>
-                )}
-              </li>
-              <li>
-                {next && (
-                  <Link to={next.fields.slug} rel="next">
-                    {next.frontmatter.title} →
-                  </Link>
-                )}
-              </li>
+              {[next, previous]
+                .filter(item => !!item)
+                .map((node, index) => (
+                  <li key={node.frontmatter.title}>
+                    <Link to={node.fields.slug}>
+                      {index === 0
+                        ? `${node.frontmatter.title} →`
+                        : `← ${node.frontmatter.title}`}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </nav>
         </aside>
