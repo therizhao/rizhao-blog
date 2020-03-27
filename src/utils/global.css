@@ -86,7 +86,8 @@ h4 {
 }
 
 @media screen and (min-width: 481px) {
-  ul {
+  ul,
+  ol {
     padding-left: 17px;
   }
 }
@@ -104,7 +105,8 @@ h4 {
     margin-top: 0;
   }
 
-  p {
+  p,
+  li {
     line-height: 2.3rem;
   }
 }

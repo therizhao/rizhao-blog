@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { phoneNumber } from '../utils/constants';
+import { media } from '../utils/helpers';
 
 const Wrapper = styled.div`
   p {
     margin-bottom: 0rem;
+    ${media.greaterThan('lg')`
+      margin-bottom: 0.5rem;
+    `}
   }
 `;
 

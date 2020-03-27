@@ -18,4 +18,4 @@ Making is a process of exploration. We throw in the ingredients and wait for the
 
 Rationalization only comes after, as we untangle the information wire and synthesize new conclusions.
 
-[Read more about my journey here →](/modules/ID1105-Making-The-Fascinating-Kueh)
+[Read more about my journey here →](/modules/id1105-making-the-fascinating-kueh)

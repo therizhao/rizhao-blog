@@ -6,7 +6,7 @@ class NotFoundPage extends React.Component {
       <main>
         <h1>Not Found 😢</h1>
         <p>
-          It always happen in life, but I am sure you can find your way
+          It always happens in life, but I am sure you can find your way
           eventually.
         </p>
       </main>

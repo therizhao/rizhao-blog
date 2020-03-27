@@ -1,17 +1,18 @@
 # Changelog
 
-Todo
+## Todo
 
-- [ ] Remove html.js
 - [ ] Fix site headers
 - [ ] Fix seo for all
   - [ ] Fix seo component
-- [ ] Change favicon to white circle
 - [ ] Fix eslint
-- [ ] Add ie prefix to prevent breakage for canvas element
 
 ## 2.1.2 - 27 Mar 2020
 
+- [x] Change favicon to white and black circle
+- [x] Fix module posts render problem
+- [x] Fix line height for p tag
+- [x] Fix line height for li tag
 
 ## 2.1.1 - 27 Mar 2020
 
