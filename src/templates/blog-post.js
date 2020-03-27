@@ -137,11 +137,6 @@ class BlogPostTemplate extends React.Component {
             marginTop: '5rem',
           }}
         >
-          <div
-            style={{
-              fontFamily: systemFont,
-            }}
-          />
           <nav>
             <ul
               style={{
@@ -195,7 +190,6 @@ export const pageQuery = graphql`
       }
       fields {
         slug
-        langKey
       }
     }
   }

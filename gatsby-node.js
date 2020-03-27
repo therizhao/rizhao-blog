@@ -71,16 +71,27 @@ exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
   if (_.get(node, 'internal.type') === `MarkdownRemark`) {
-    createNodeField({
-      node,
-      name: 'directoryName',
-      value: path.basename(path.dirname(_.get(node, 'fileAbsolutePath'))),
-    });
+    const fileAbsolutePath = _.get(node, 'fileAbsolutePath');
 
     createNodeField({
       node,
-      name: `slug`,
-      value: node.frontmatter.title,
+      name: 'directoryName',
+      value: path.basename(path.dirname(fileAbsolutePath)),
+    });
+
+    const slug =
+      '/' +
+      path.basename(path.dirname(path.dirname(fileAbsolutePath))) +
+      '/' +
+      node.frontmatter.title
+        .toLowerCase()
+        .replace(/ /g, '-')
+        .replace(/[^a-z0-9\-]+/g, '');
+
+    createNodeField({
+      node,
+      name: 'slug',
+      value: slug,
     });
 
     const markdown = node.internal.content;

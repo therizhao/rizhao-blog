@@ -15,6 +15,7 @@ Todo
 
 ## 2.1.1 - 27 Mar 2020
 
+- [x] Create slug field
 
 ## 2.1.0 - 27 Mar 2020
 
