@@ -3,6 +3,7 @@ import { formatPostDate, formatReadingTime, media } from '../utils/helpers';
 import React from 'react';
 import get from 'lodash/get';
 import styled from 'styled-components';
+import Seo from '../shared/Seo';
 
 const BlogLink = styled(Link)`
   border-bottom: none;
@@ -41,44 +42,51 @@ const Blog = () => {
     }
   `);
 
-  return data.allMarkdownRemark.edges.map(({ node }) => {
-    const title = get(node, 'frontmatter.title') || node.fields.slug;
-    return (
-      <BlogLink key={node.fields.slug} to={node.fields.slug} rel="bookmark">
-        <article key={node.fields.slug}>
-          <header>
-            <h2
-              style={{
-                fontFamily: '"Acumin Pro", sans-serif',
-                color: 'var(--postLink)',
-                marginBottom: '.5rem',
-              }}
-            >
-              {title}
-            </h2>
-            <small
-              style={{
-                display: 'block',
-                paddingBottom: '.3rem',
-              }}
-            >
-              {formatPostDate(node.frontmatter.date)}
-              <span
-                style={{
-                  paddingLeft: '0.5rem',
-                  paddingRight: '0.2rem',
-                }}
-              >
-                •
-              </span>
-              {formatReadingTime(node.timeToRead)}
-            </small>
-          </header>
-          <p dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }} />
-        </article>
-      </BlogLink>
-    );
-  });
+  return (
+    <>
+      <Seo slug="/blog" title="Blog | Wang Ri Zhao" />
+      {data.allMarkdownRemark.edges.map(({ node }) => {
+        const title = get(node, 'frontmatter.title') || node.fields.slug;
+        return (
+          <BlogLink key={node.fields.slug} to={node.fields.slug} rel="bookmark">
+            <article key={node.fields.slug}>
+              <header>
+                <h2
+                  style={{
+                    fontFamily: '"Acumin Pro", sans-serif',
+                    color: 'var(--postLink)',
+                    marginBottom: '.5rem',
+                  }}
+                >
+                  {title}
+                </h2>
+                <small
+                  style={{
+                    display: 'block',
+                    paddingBottom: '.3rem',
+                  }}
+                >
+                  {formatPostDate(node.frontmatter.date)}
+                  <span
+                    style={{
+                      paddingLeft: '0.5rem',
+                      paddingRight: '0.2rem',
+                    }}
+                  >
+                    •
+                  </span>
+                  {formatReadingTime(node.timeToRead)}
+                </small>
+              </header>
+              <p
+                dangerouslySetInnerHTML={{ __html: node.frontmatter.spoiler }}
+              />
+            </article>
+          </BlogLink>
+        );
+      })}
+    </>
+  );
 };
 
 export default Blog;

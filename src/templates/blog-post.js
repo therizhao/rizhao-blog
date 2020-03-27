@@ -4,11 +4,10 @@ import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import get from 'lodash/get';
-import SEO from '../shared/SEO';
-import Panel from '../shared/Panel';
 import { formatPostDate, formatReadingTime, media } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import { Fade } from '@material-ui/core';
+import Seo from '../shared/Seo';
 
 const Main = styled.main`
   ${media.greaterThan('lg')`
@@ -109,10 +108,13 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <>
-        <SEO
+        <Seo
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
           slug={post.fields.slug}
+          imageSlug={
+            post.frontmatter.image ? post.frontmatter.image.publicURL : null
+          }
         />
         <Main>
           <article>
@@ -187,6 +189,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         spoiler
         hasScrollButton
+        image {
+          publicURL
+        }
       }
       fields {
         slug

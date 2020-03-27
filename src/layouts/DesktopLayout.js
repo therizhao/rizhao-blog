@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { tabsData } from '../utils/constants';
-import Footer from '../scaffolds/Footer';
+import Footer from '../shared/Footer';
 import Bubbler from '../shared/Bubbler';
 
 const MainWrapper = styled.div`

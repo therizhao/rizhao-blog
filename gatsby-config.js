@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'therizhao',
+    title: `Wang Ri Zhao | Designer, Entrepreneur and Software Engineer`,
     author: 'Wang Ri Zhao',
-    description: 'I am a designer, entrepreneur and software engineer.',
+    description:
+      'Hello! I am Ri Zhao, a designer, entrepreneur and software engineer. My hobby is running and joining startups.',
     siteUrl: 'https://www.therizhao.com',
   },
   pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

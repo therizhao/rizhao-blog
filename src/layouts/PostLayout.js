@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import PageFooter from '../shared/PageFooter';
-import Footer from '../scaffolds/Footer';
+import Footer from '../shared/Footer';
 
 // Where to head back to given the current pathname
 const backLinks = {

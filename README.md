@@ -1,11 +1,24 @@
 # Changelog
 
-## Todo
+## Todos
 
-- [ ] Fix site headers
-- [ ] Fix seo for all
-  - [ ] Fix seo component
-- [ ] Fix eslint
+- [ ] Fix media query load
+  - [ ] Show the site immediately
+- [ ] Add google site verification
+- [ ] Ask google to crawl site
+
+## 2.1.3 - 27 Mar 2020
+
+- [x] Remove scaffolds folder
+- [x] Change tab font size from 1.5rem to 1.4rem
+- [x] Fix seo for all
+  - [x] Add robots txt
+  - [x] Add sitemap
+  - [x] Fix seo component
+    - [x] Title
+    - [x] Description
+    - [x] Canonical
+    - [x] OpenGraph
 
 ## 2.1.2 - 27 Mar 2020
 

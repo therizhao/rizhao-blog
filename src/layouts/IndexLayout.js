@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import { Header } from './styled';
-import Footer from '../scaffolds/Footer';
+import Footer from '../shared/Footer';
 import { tabsData } from '../utils/constants';
 
 const Tabs = styled.div`
@@ -14,7 +14,7 @@ const Tabs = styled.div`
 const Tab = styled(Link).attrs({
   activeClassName: 'active',
 })`
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   cursor: pointer;
   transition: all 0.2s;
