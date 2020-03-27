@@ -4,28 +4,24 @@ import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
 import get from 'lodash/get';
-import Bio from '../components/Bio';
-import Layout from '../components/Layout';
-import SEO from '../components/SEO';
-import Signup from '../components/Signup';
-import Panel from '../components/Panel';
+import SEO from '../shared/SEO';
+import Panel from '../shared/Panel';
 import { formatPostDate, formatReadingTime, media } from '../utils/helpers';
 import { rhythm, scale } from '../utils/typography';
 import { Fade } from '@material-ui/core';
 
+const Main = styled.main`
+  ${media.greaterThan('lg')`
+    margin-top: 11px;
+  `}
+`;
+
 const Content = styled.div`
   .gatsby-resp-image-wrapper {
-    min-width: 400px !important;
-    max-width: 400px !important;
-    margin: 40px 0 !important;
+    margin-top: 2.5rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
-
-  ${media.lessThan('420px')`
-    .gatsby-resp-image-wrapper {
-      min-width: 80vw !important;
-      max-width: 80vw !important;
-    }
-  `}
 
   table {
     max-width: 100vw;
@@ -38,12 +34,18 @@ const Content = styled.div`
   }
 
   .gatsby-resp-image-link:hover {
-    box-shadow: none;
+    border-bottom: none;
   }
 
   img {
     height: auto !important;
-    border-radius: 10px !important;
+  }
+
+  .caption p {
+    display: block;
+    color: var(--textGray);
+    font-size: 1.2rem;
+    margin-top: -0.4rem;
   }
 `;
 
@@ -103,78 +105,43 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = get(this.props, 'data.site.siteMetadata.title');
-    let {
-      previous,
-      next,
-      slug,
-      translations,
-      translatedLinks,
-    } = this.props.pageContext;
-
-    // Replace original links with translated when available.
-    let html = post.html;
+    let { previous, next, slug } = this.props.pageContext;
 
     return (
-      <Layout location={this.props.location} title={`< ${siteTitle}`}>
+      <>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.spoiler}
           slug={post.fields.slug}
         />
-        <main>
+        <Main>
           <article>
             <header>
               <h1
                 style={{
                   color: 'var(--textTitle)',
-                  fontSize: 35,
-                  marginBottom: 40,
+                  marginBottom: '2rem',
+                  lineHeight: '2.8rem',
                   marginTop: -13,
                 }}
               >
                 {post.frontmatter.title}
               </h1>
-              <p
-                style={{
-                  ...scale(-1 / 5),
-                  display: 'block',
-                  marginBottom: rhythm(1),
-                  marginTop: rhythm(-4 / 5),
-                }}
-              >
-                {formatPostDate(post.frontmatter.date)}
-                {` • ${formatReadingTime(post.timeToRead)}`}
-              </p>
             </header>
-            <Content dangerouslySetInnerHTML={{ __html: html }} />
-            {this.renderScrollButton()}
+            <Content dangerouslySetInnerHTML={{ __html: post.html }} />
+            {post.frontmatter.hasScrollButton && this.renderScrollButton()}
           </article>
-        </main>
-        <aside>
+        </Main>
+        <aside
+          style={{
+            marginTop: '5rem',
+          }}
+        >
           <div
             style={{
-              margin: '90px 0 40px 0',
               fontFamily: systemFont,
             }}
           />
-          <h3
-            style={{
-              fontFamily: 'acumin-pro, sans-serif',
-              marginTop: rhythm(0.25),
-            }}
-          >
-            <Link
-              style={{
-                boxShadow: 'none',
-                textDecoration: 'none',
-                color: 'var(--textLink)',
-              }}
-              to={'/'}
-            >
-              therizhao
-            </Link>
-          </h3>
-          <Bio />
           <nav>
             <ul
               style={{
@@ -183,6 +150,7 @@ class BlogPostTemplate extends React.Component {
                 justifyContent: 'space-between',
                 listStyle: 'none',
                 padding: 0,
+                marginLeft: 0,
               }}
             >
               <li>
@@ -206,7 +174,7 @@ class BlogPostTemplate extends React.Component {
             </ul>
           </nav>
         </aside>
-      </Layout>
+      </>
     );
   }
 }
@@ -229,6 +197,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         spoiler
+        hasScrollButton
       }
       fields {
         slug

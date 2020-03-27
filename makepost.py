@@ -10,8 +10,8 @@ def create_story():
     story_type = input(
         'Choose Story Type\n1. Blog Post\n2. Module Post\n3. Note Post\nEnter 1, 2 or 3: ')
     post_map = {
-        '1': 'blog-posts',
-        '2': 'module-posts',
+        '1': 'blog',
+        '2': 'modules',
         '3': 'notes'
     }
     if story_type in post_map:
@@ -22,7 +22,7 @@ def create_story():
         folder = ''
         document_title = ''
 
-        if page_type == 'module-posts':
+        if page_type == 'modules':
             module_code = input('Enter Module Code: ')
             folder = f"src/pages/{page_type}/{module_code}-{title_w_dash}"
             document_title = f"{module_code} {title}"

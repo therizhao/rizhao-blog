@@ -22,9 +22,19 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-custom-blocks',
+            options: {
+              blocks: {
+                caption: {
+                  classes: 'caption',
+                },
+              },
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 800,
             },
           },
           {
@@ -174,5 +184,6 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`,
     },
     `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-layout`,
   ],
 };

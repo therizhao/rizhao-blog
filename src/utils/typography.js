@@ -1,5 +1,4 @@
 import './global.css';
-
 import Typography from 'typography';
 import Wordpress2016 from 'typography-theme-wordpress-2016';
 
@@ -11,11 +10,11 @@ Wordpress2016.overrideThemeStyles = () => ({
     background: 'var(--hr)',
   },
   'a.gatsby-resp-image-link': {
-    boxShadow: 'none',
+    borderBottom: 'none',
   },
   // These two are for gatsby-remark-autolink-headers:
   'a.anchor': {
-    boxShadow: 'none',
+    borderBottom: 'none',
   },
   'a.anchor svg[aria-hidden="true"]': {
     stroke: 'var(--textLink)',

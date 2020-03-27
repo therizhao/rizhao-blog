@@ -4,11 +4,11 @@ export function formatReadingTime(minutes) {
   let cups = Math.round(minutes / 5);
   let bowls = 0;
   if (cups > 5) {
-    return `${new Array(Math.round(cups / Math.E))
-      .fill('🍱')
-      .join('')} ${minutes} min read`;
+    return `${new Array(Math.round(cups / Math.E)).join(
+      ''
+    )} ${minutes} min read`;
   } else {
-    return `${new Array(cups || 1).fill('☕️').join('')} ${minutes} min read`;
+    return `${new Array(cups || 1).join('')} ${minutes} min read`;
   }
 }
 
@@ -26,8 +26,10 @@ export function formatPostDate(date, lang) {
   return date.toLocaleDateString(...args);
 }
 
-export const media = generateMedia({
+export const breakpoints = {
   sm: '480px',
   md: '640px',
   lg: '1024px',
-});
+};
+
+export const media = generateMedia(breakpoints);
