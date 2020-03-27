@@ -11,6 +11,7 @@
   font-family: 'Acumin Pro';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: local('Acumin Pro Italic'),
     url('../fonts/Acumin-ItPro.woff') format('woff');
 }
@@ -19,6 +20,7 @@
   font-family: 'Acumin Pro';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local('Acumin Pro Bold'),
     url('../fonts/Acumin-BdPro.woff') format('woff');
 }
@@ -27,6 +29,7 @@
   font-family: 'Acumin Pro';
   font-style: italic;
   font-weight: 700;
+  font-display: swap;
   src: local('Acumin Pro Bold Italic'),
     url('../fonts/Acumin-BdItPro.woff') format('woff');
 }

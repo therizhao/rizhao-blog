@@ -4,8 +4,10 @@
 
 - [ ] Fix media query load
   - [ ] Show the site immediately
-- [ ] Add google site verification
-- [ ] Ask google to crawl site
+
+## 2.1.4 - 27 Mar 2020
+
+- [x] Add `font-display: swap` property
 
 ## 2.1.3 - 27 Mar 2020
 
