@@ -5,9 +5,13 @@
 - [ ] Fix media query load
   - [ ] Show the site immediately
 
+## 2.1.6 - 28 Mar 2020
+
+- [x] Remove trailing slash from url
+
 ## 2.1.5 - 27 Mar 2020
 
-- [ ] Remove and from site title
+- [x] Remove and from site title
 
 ## 2.1.4 - 27 Mar 2020
 
