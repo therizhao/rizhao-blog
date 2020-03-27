@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wang Ri Zhao | Designer, Entrepreneur and Software Engineer`,
+    title: `Wang Ri Zhao | Designer, Entrepreneur, Software Engineer`,
     author: 'Wang Ri Zhao',
     description:
       'Hello! I am Ri Zhao, a designer, entrepreneur and software engineer. My hobby is running and joining startups.',
