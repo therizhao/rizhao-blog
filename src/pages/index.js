@@ -142,14 +142,18 @@ const About = () => (
         <h4>Front-end Web Development</h4>
         <ul>
           <li>React.js</li>
+          <li>Redux</li>
+          <li>Gatsby.js</li>
+          <li>GraphQL</li>
           <li>Storybook.js</li>
           <li>Enzyme.js</li>
-          <li>Jest.js</li>
+          <li>Jest</li>
           <li>Angular</li>
         </ul>
         <h4>Back-end Web Development</h4>
         <ul>
           <li>Node.js</li>
+          <li>Express</li>
           <li>Django</li>
           <li>Flask</li>
           <li>MongoDB</li>
