@@ -5,6 +5,10 @@
 - [ ] Fix media query load
   - [ ] Show the site immediately
 
+## 2.1.7 - 28 Mar 2020
+
+- [x] Add new blog post "Dream Again"
+
 ## 2.1.6 - 28 Mar 2020
 
 - [x] Remove trailing slash from url
