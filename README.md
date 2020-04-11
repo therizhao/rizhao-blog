@@ -1,9 +1,8 @@
 # Changelog
 
-## Todos
+## 2.1.8 - 11 Apr 2020
 
-- [ ] Fix media query load
-  - [ ] Show the site immediately
+- [x] Fix url used fascinating flour post
 
 ## 2.1.7 - 28 Mar 2020
 

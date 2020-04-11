@@ -4,7 +4,7 @@ date: '2019-12-01'
 image: '01-leaf-kueh.jpg'
 ---
 
-In this project, I spent 6 weeks under the tutelage of [Hans Tan](hanstan.net) to make a fascinating piece of flour.
+In this project, I spent 6 weeks under the tutelage of [Hans Tan](https://hanstan.net) to make a fascinating piece of flour.
 
 ![Leaf Kueh](01-leaf-kueh.jpg)
 ![Leaf Kueh](02-leaf-kueh.jpg)
