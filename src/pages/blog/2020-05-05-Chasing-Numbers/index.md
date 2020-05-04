@@ -17,7 +17,7 @@ Those who live outside of the economic paradigm are stupid.
 Our society has different castes.<br />
 People are divided into their castes based on their wealth.<br />
 The most superior caste lives in sky-high penthouses.<br />
-The second level is the middle-income staying in high-rise apartments.<br />
+The second level is the middle-income, staying in high-rise apartments.<br />
 Below them are their neighbours living in rental flats.<br />
 At the bottom are labourers working with their sweat and blood, living in cramped bunk beds.
 
