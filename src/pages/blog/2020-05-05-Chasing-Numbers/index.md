@@ -19,7 +19,7 @@ People are divided into their castes based on their wealth.<br />
 The most superior caste lives in sky-high penthouses.<br />
 The second level is the middle-income, staying in high-rise apartments.<br />
 Below them are their neighbours living in rental flats.<br />
-At the bottom are labourers working with their sweat and blood, living in cramped bunk beds.
+At the bottom are labourers, working with their sweat and blood, living in cramped bunk beds.
 
 I lie in the coffin, waiting to die.<br />
 I count the value of my numerous assets.<br />
