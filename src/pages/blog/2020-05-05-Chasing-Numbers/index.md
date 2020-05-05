@@ -25,5 +25,5 @@ I lie in the coffin, waiting to die.<br />
 I count the value of my numerous assets.<br />
 I am worth just over a billion dollars.
 
-The undertaker pushes me into the crematorium.<br />
+The undertaker pushes me into the cremator.<br />
 I smile satisfied.
