@@ -14,11 +14,10 @@ The world revolves around cost and benefit.<br />
 Those who strive for profits are rational.<br />
 Those who don't are dumb.
 
-The society has different castes.<br />
-People are divided into their castes based on their wealth.<br />
+The society has different classes.<br />
 The most superior lives in sky-high penthouses.<br />
-The middle-income stays in high-rise apartments.<br />
-At the bottom are labourers, working with their sweat and blood, living in cramped bunk beds.
+The middle-class stays in apartments.<br />
+At the bottom are labourers, working with their sweat and blood, sleeping in cramped bunk beds.
 
 He lies in the coffin, waiting to die.<br />
 He counts the value of his numerous assets.<br />
