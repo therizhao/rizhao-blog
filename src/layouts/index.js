@@ -21,7 +21,14 @@ const Layout = ({ location, children }) => {
     return <PostLayout location={location}>{children}</PostLayout>;
   };
 
-  if (useMediaQuery(`(min-width: ${breakpoints.lg})`)) {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  if (
+    typeof window !== 'undefined' &&
+    window.matchMedia(`(min-width: ${breakpoints.lg})`).matches
+  ) {
     return <DesktopLayout>{children}</DesktopLayout>;
   }
 

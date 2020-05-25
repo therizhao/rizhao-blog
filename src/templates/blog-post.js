@@ -151,7 +151,7 @@ class BlogPostTemplate extends React.Component {
                 marginLeft: 0,
               }}
             >
-              {[next, previous]
+              {[previous, next]
                 .filter(item => !!item)
                 .map((node, index) => (
                   <li key={node.frontmatter.title}>
