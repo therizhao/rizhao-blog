@@ -47,6 +47,13 @@ const Footer = ({ className, style }) => {
             </div>
           )}
         <a
+          href="https://medium.com/@rizhaow"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Medium
+        </a>{' '}
+        <a
           href="https://github.com/therizhao"
           target="_blank"
           rel="noopener noreferrer"
