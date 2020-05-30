@@ -53,6 +53,7 @@ const Footer = ({ className, style }) => {
         >
           Medium
         </a>{' '}
+        &bull;{' '}
         <a
           href="https://github.com/therizhao"
           target="_blank"
