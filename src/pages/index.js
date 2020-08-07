@@ -79,6 +79,10 @@ const About = () => (
         I am Ri Zhao, a designer, entrepreneur and software engineer. I have a
         passion for learning and creative problem solving.
       </p>
+      <p style={{ marginTop: '-0.9rem' }}>
+        I am looking for an internship,{' '}
+        <a href={resume}>click here to download my resumé 👈</a>
+      </p>
       <h2>Experience</h2>
       <div className="exp card">
         <div className="card__header">
@@ -248,7 +252,7 @@ const About = () => (
         </ul>
       </div>
       <div className="job-search">
-        <h2>I am looking for a job 👨‍💻</h2>
+        <h2>I am looking for an internship 👨‍💻</h2>
         <a href={resume}>Click here to download my resumé 👈</a>
       </div>
     </AboutWrapper>
