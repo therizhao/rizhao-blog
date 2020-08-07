@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/helpers';
+import resume from '../assets/RI_ZHAO_WANG-RESUME.pdf';
 import Seo from '../shared/Seo';
 
 const AboutWrapper = styled.div`
@@ -11,7 +12,6 @@ const AboutWrapper = styled.div`
   `}
 
   &&& h2 {
-    /* margin-bottom: 15px; */
     margin-top: 0;
   }
 
@@ -31,37 +31,42 @@ const AboutWrapper = styled.div`
       margin-bottom: 1.5rem;
     `}
   }
-`;
 
-const CardHeader = styled.div`
-  margin-bottom: 10px;
+  .card {
+    &__header {
+      margin-bottom: 10px;
 
-  h3 {
-    margin-bottom: 15px;
+      h3 {
+        margin-bottom: 15px;
+      }
+
+      &--caption {
+        display: block;
+        font-size: 1.4rem;
+      }
+    }
+
+    ul {
+      line-height: 30px;
+    }
+
+    a {
+      border-bottom: none;
+    }
   }
 
-  .caption {
-    display: block;
-    font-size: 1.4rem;
-  }
-`;
-
-const Card = styled.div`
-  margin-top: 2rem;
-  border-radius: 6px;
-
-  ul {
-    line-height: 30px;
+  .exp {
+    margin-top: 2rem;
   }
 
-  a {
-    border-bottom: none;
+  .skills {
+    h3:not(:first-child) {
+      margin-top: 2.4rem;
+    }
   }
-`;
 
-const SkillsWrapper = styled.div`
-  &&& h3:not(:first-child) {
-    margin-top: 2.4rem;
+  .job-search {
+    margin-top: 3rem;
   }
 `;
 
@@ -71,72 +76,121 @@ const About = () => (
     <AboutWrapper>
       <h1>Hello!</h1>
       <p>
-        I am Ri Zhao, a designer, entrepreneur and software engineer. My hobby
-        is running and joining startups.
+        I am Ri Zhao, a designer, entrepreneur and software engineer. I have a
+        passion for learning and creative problem solving.
       </p>
       <h2>Experience</h2>
-      <Card>
-        <CardHeader>
+      <div className="exp card">
+        <div className="card__header">
           <h3>
             Founder of <a href="https://www.astartutors.sg">Astar Tutors</a>
           </h3>
-          <span className="caption">July 2017 - Present</span>
-        </CardHeader>
+          <span className="card__header--caption">July 2017 - Present</span>
+        </div>
         <ul>
           <li>
-            Developed and implemented codebase with feature specs including a
-            flexible client engine, server backend, database, payment, Telegram
-            interface, social API integration, etc
+            Astar Tutors is tuition platform that helps tutors find tuition jobs
           </li>
           <li>
-            Conducted user research, designed user flows and created UI mockups
+            Developed and implemented codebase with features including a
+            flexible client engine (React.js), REST API endpoints, server
+            backend (Node.js, Express), database (MongoDB), payment (Stripe),
+            Telegram interface, social API integration and SMS interface
+            (Twilio)
           </li>
-          <li>Ran advertisements on Facebook Ads and Google Ads</li>
           <li>
-            Hired and managed a team of 6 software engineers and business
-            developers
+            Hired and led a team of 3 software engineers over 6 months to build
+            a new product for parents to find tutors (React.js, Node.js,
+            MongoDB, Stripe, Twilio)
           </li>
-          <li>> 8000 users and growing</li>
+          <li>
+            Created an in-house project management tool with GitHub, Slack,
+            Zenhub integration to accelerate development process (Node.js)
+          </li>
+          <li>
+            Obtained more than 10000 users and passively generating revenue of
+            more than $1000/month
+          </li>
         </ul>
-      </Card>
-      <Card>
-        <CardHeader>
+      </div>
+      <div className="exp card">
+        <div className="card__header">
           <h3>
             Software Engineer at{' '}
             <a href="https://www.windspeed.io">Windspeed</a>
           </h3>
-          <span className="caption">Mar 2020 - Present</span>
-        </CardHeader>
+          <span className="card__header--caption">Mar 2020 - Present</span>
+        </div>
         <ul>
           <li>
-            Working part-time in an up-and-coming perishables delivery startup
+            Designed and led the development of a new driver delivery app to
+            help streamline operations for perishables delivery (React.js,
+            Whimsical)
           </li>
-          <li>In charge of developing driver delivery app</li>
+          <li>
+            Conducted user research with drivers to discover their needs,
+            behaviours and pain-points
+          </li>
+          <li>Worked closely with founders to plan out new features</li>
         </ul>
-      </Card>
-      <Card>
-        <CardHeader>
+      </div>
+      <div className="exp card">
+        <div className="card__header">
           <h3>
             Full Stack Developer Intern at{' '}
             <a href="https://www.dathena.io">Dathena</a>
           </h3>
-          <span style={{ marginBottom: '.4rem' }} className="caption">
+          <span
+            style={{ marginBottom: '.4rem' }}
+            className="card__header--caption"
+          >
             Nov 2019 - Jan 2020
           </span>
-          <span className="caption">Dec 2018 - Jun 2019</span>
-        </CardHeader>
+          <span className="card__header--caption">Dec 2018 - Jun 2019</span>
+        </div>
         <ul>
-          <li>Worked extensively with React.js</li>
-          <li>Created scalable and reusable components </li>
-          <li>Implemented complex Data Visualizations with D3</li>
-          <li>Implemented in-browser image review system</li>
           <li>
-            Worked across multiple projects in a cross functional Agile team
+            Created in-browser image annotation system as part of Dathena'
+            computer vision solution to identify personally identifiable
+            information in documents (D3.js, React.js, Jest, Enzyme.js)
           </li>
-          <li>Worked with Python Flask backend</li>
+          <li>
+            Implemented Dathena's UI component library encompassing complex data
+            visualisations and reusable UI components used in Dathena's data
+            privacy platform which is used by large-scale clients to visualise
+            and protect users' data (React.js, D3.js, Storybook.js, Jest,
+            Enzyme.js)
+          </li>
+          <li>
+            Created data source crawling system to extract personally
+            identifiable information from various documents in Microsoft
+            Sharepoint for the training of machine-learning models (Flask,
+            Django)
+          </li>
+          <li>
+            Core developer of Dathena's AI-powered data privacy and security
+            solution that helped Dathena raise $12 million in Series A round
+          </li>
         </ul>
-      </Card>
-      <SkillsWrapper>
+      </div>
+      <div className="education card">
+        <h2>Education</h2>
+        <div className="card__header">
+          <h3>
+            Bachelor's in Computer Science (Honours), National University of
+            Singapore
+          </h3>
+          <span className="card__header--caption">Aug 2019 - May 2022</span>
+        </div>
+        <ul>
+          <li>Awarded NUS Global Merit Scholarship (Full-ride scholarship)</li>
+          <li>
+            Spent a year learning design fundamentals in NUS Industrial Design
+            under distinguished designers (Aug 2019 - May 2020)
+          </li>
+        </ul>
+      </div>
+      <div className="skills">
         <h2>Skills</h2>
         <h3>Software Engineering</h3>
         <h4>Front-end Web Development</h4>
@@ -192,7 +246,11 @@ const About = () => (
           <li>Rhino3D</li>
           <li>Keyshot</li>
         </ul>
-      </SkillsWrapper>
+      </div>
+      <div className="job-search">
+        <h2>I am looking for a job 👨‍💻</h2>
+        <a href={resume}>Click here to download my resumé 👈</a>
+      </div>
     </AboutWrapper>
   </>
 );

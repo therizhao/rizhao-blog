@@ -36,12 +36,14 @@ const LinksWrapper = styled.footer`
 `;
 
 const Footer = ({ className, style }) => {
+  const isDesktop = useMediaQuery(`(max-width: ${breakpoints.lg})`);
+
   return (
     <>
       <LinksWrapper className={className} style={style}>
         {typeof window !== `undefined` &&
           window.location.pathname !== '/contact' &&
-          useMediaQuery(`(max-width: ${breakpoints.lg})`) && (
+          isDesktop && (
             <div style={{ float: 'right' }}>
               <Link to="/contact">Contact</Link>
             </div>
