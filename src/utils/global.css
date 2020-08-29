@@ -361,3 +361,7 @@ a {
   padding-bottom: 1px;
   border-bottom: 0.5px solid var(--black);
 }
+
+.highlight {
+  background-color: #fff5ca;
+}

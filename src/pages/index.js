@@ -87,6 +87,15 @@ const About = () => (
       <div className="exp card">
         <div className="card__header">
           <h3>
+            Software Engineer Intern at{' '}
+            <a href="https://www.tiktok.com/">TikTok</a>
+          </h3>
+          <span className="card__header--caption">Aug 2020 - Present</span>
+        </div>
+      </div>
+      <div className="exp card">
+        <div className="card__header">
+          <h3>
             Founder of <a href="https://www.astartutors.sg">Astar Tutors</a>
           </h3>
           <span className="card__header--caption">July 2017 - Present</span>
