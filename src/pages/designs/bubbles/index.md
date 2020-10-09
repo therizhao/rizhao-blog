@@ -18,4 +18,4 @@ it's nothing much
 
 just a bundle of dreams
 
-[View bubbles book 👈](bubbles_book.pdf)
+[view bubbles book 👈](bubbles_book.pdf)

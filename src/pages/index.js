@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { media } from '../utils/helpers';
 import resume from '../assets/RI_ZHAO_WANG-RESUME.pdf';
 import Seo from '../shared/Seo';
+import { Link } from 'gatsby';
 
 const AboutWrapper = styled.div`
   ${media.greaterThan('lg')` 
@@ -17,6 +18,7 @@ const AboutWrapper = styled.div`
 
   &&& h3 {
     margin-top: 2rem;
+    line-height: 24px;
 
     ${media.greaterThan('lg')`
       margin-top: 2.2rem;
@@ -79,11 +81,16 @@ const About = () => (
         I am Ri Zhao, a designer, entrepreneur and software engineer. I have a
         passion for learning and creative problem solving.
       </p>
-      <p style={{ marginTop: '-0.9rem' }}>
-        I am looking for an internship,{' '}
-        <a href={resume}>click here to download my resumé 👈</a>
+      <p>
+        I offer free software design/development/consulting services to
+        organisations/individuals doing social good 💛.
       </p>
-      <h2>Experience</h2>
+      <p>
+        <Link to="/contact">
+          Click here to contact me if you need any help 🙆‍♂{' '}
+        </Link>
+      </p>
+      <h2 style={{ marginTop: 30 }}>Experience</h2>
       <div className="exp card">
         <div className="card__header">
           <h3>
@@ -259,10 +266,6 @@ const About = () => (
           <li>Rhino3D</li>
           <li>Keyshot</li>
         </ul>
-      </div>
-      <div className="job-search">
-        <h2>I am looking for an internship 👨‍💻</h2>
-        <a href={resume}>Click here to download my resumé 👈</a>
       </div>
     </AboutWrapper>
   </>
