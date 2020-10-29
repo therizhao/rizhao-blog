@@ -140,29 +140,32 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           <nav>
-            <ul
+            <div
               style={{
                 display: 'flex',
                 flexWrap: 'wrap',
-                justifyContent: 'space-between',
                 listStyle: 'none',
+                justifyContent: 'space-between',
                 flexDirection: 'row-reverse',
                 padding: 0,
                 marginLeft: 0,
               }}
             >
-              {[previous, next]
-                .filter(item => !!item)
-                .map((node, index) => (
-                  <li key={node.frontmatter.title}>
-                    <Link to={node.fields.slug}>
-                      {index === 0
-                        ? `${node.frontmatter.title} →`
-                        : `← ${node.frontmatter.title}`}
-                    </Link>
-                  </li>
-                ))}
-            </ul>
+              <div>
+                {next && (
+                  <Link to={next.fields.slug}>
+                    {`${next.frontmatter.title} →`}
+                  </Link>
+                )}
+              </div>
+              <div>
+                {previous && (
+                  <Link to={previous.fields.slug}>
+                    {`← ${previous.frontmatter.title}`}
+                  </Link>
+                )}
+              </div>
+            </div>
           </nav>
         </aside>
       </>
