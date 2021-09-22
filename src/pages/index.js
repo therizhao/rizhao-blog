@@ -77,18 +77,13 @@ const About = () => (
     <Seo slug="/" />
     <AboutWrapper>
       <h1>Hello!</h1>
+      <p>Ri Zhao here :) I am living in the moment!</p>
       <p>
-        I am Ri Zhao, a designer, entrepreneur and software engineer. I have a
-        passion for learning and creative problem solving.
+        I offer free software development services to people doing social good
+        💛
       </p>
       <p>
-        I offer free software design/development/consulting services to
-        organisations/individuals doing social good 💛.
-      </p>
-      <p>
-        <Link to="/contact">
-          Click here to contact me if you need any help 🙆‍♂{' '}
-        </Link>
+        <Link to="/contact">Click here to contact me 🙆‍♂ </Link>
       </p>
       <h2 style={{ marginTop: 30 }}>Experience</h2>
       <div className="exp card">
@@ -97,7 +92,28 @@ const About = () => (
             Software Engineer Intern at{' '}
             <a href="https://www.tiktok.com/">TikTok</a>
           </h3>
-          <span className="card__header--caption">Aug 2020 - Present</span>
+          <span className="card__header--caption">Aug 2020 - Aug 2021</span>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Incredibly thankful for my incredible mentors, fellow interns for
+              helping me grow during this internship
+            </li>
+            <li>
+              Learnt to be more confident, accept my flaws and be kind to myself
+              💛
+            </li>
+            <li>
+              Created a new Golang ClickHouse database driver up to 9X faster
+              than the original 🚀
+            </li>
+            <li>
+              Created an oncall management system that increased alarm
+              resolution speed by 5X. Used by hundreds of engineers across
+              TikTok Video Architecture and E-commerce teams.
+            </li>
+          </ul>
         </div>
       </div>
       <div className="exp card">
@@ -160,13 +176,7 @@ const About = () => (
             Full Stack Developer Intern at{' '}
             <a href="https://www.dathena.io">Dathena</a>
           </h3>
-          <span
-            style={{ marginBottom: '.4rem' }}
-            className="card__header--caption"
-          >
-            Nov 2019 - Jan 2020
-          </span>
-          <span className="card__header--caption">Dec 2018 - Jun 2019</span>
+          <span className="card__header--caption">Dec 2018 - Jun 2020</span>
         </div>
         <ul>
           <li>
@@ -209,6 +219,64 @@ const About = () => (
             under distinguished designers (Aug 2019 - May 2020)
           </li>
         </ul>
+        <div className="card__header">
+          <h3>River Valley High School ❤️💙</h3>
+          <span className="card__header--caption">Jan 2011 - Nov 2016</span>
+        </div>
+        <p>rvspirit</p>
+        <ul>
+          <li>Bloggged about my deeper emotions as a student 🤍</li>
+          <li>Discovered my love for writing and introspection</li>
+          <li>
+            Also featured some writings from fellow schoolmates like me 🏠
+          </li>
+          <li>
+            <a
+              style={{ color: '#0070ff' }}
+              href="https://rvspirit.wordpress.com/"
+            >
+              The website is still alive!
+            </a>{' '}
+            I also transferred some of its content into this blog
+          </li>
+        </ul>
+        <p>rvmamashop</p>
+        <ul>
+          <li>Operated a widely loved snacks shop</li>
+          <li>
+            Carried large bags of snack around school and sold them to students
+            of all ages
+          </li>
+          <li>Instagram account grew from 0-700 followers in a week</li>
+          <li>
+            Carried out interesting social experiments such as name your own
+            price day (Realised that I actually earned more $ when users name
+            their own price 😝)
+          </li>
+          <li>
+            At it's peak, we had 4 franchise sellers from different levels to
+            ensure we have full school coverage. Could have been a multi-million
+            dollar franchise spanning across all schools in Singapore 🤔
+          </li>
+          <li>
+            Eventually got shut down after a few months but was fun while it
+            lasted 👍
+          </li>
+        </ul>
+        <p>the shed</p>
+        <ul>
+          <li>
+            Built a gaming shed with an og xbox console that stood proudly for 3
+            days
+          </li>
+          <li>Fun memories for the students of the school</li>
+          <li>
+            Overcame numerous difficulties such as transporting wooden pallets
+            from the nearby factories, buying a used tv set from Carousell,
+            hammering nails to construct the shed on a weekend in secrecy
+          </li>
+          <li>Yes, it got torn down eventually 🙃</li>
+        </ul>
       </div>
       <div className="skills">
         <h2>Skills</h2>
@@ -234,6 +302,7 @@ const About = () => (
         </ul>
         <h4>Languages</h4>
         <ul>
+          <li>Golang</li>
           <li>Typescript</li>
           <li>Javascript</li>
           <li>Python</li>

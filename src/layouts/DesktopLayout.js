@@ -96,7 +96,7 @@ const DesktopLayout = ({ children }) => {
           </Link>
         </h1>
         <Bubbler>
-          <BubbleSource>don't forget to dream</BubbleSource>
+          <BubbleSource>Living in the moment!</BubbleSource>
         </Bubbler>
       </div>
       <BodyWrapper>

@@ -41,7 +41,10 @@ const Designs = () => {
 
   return (
     <>
-      <Seo slug="/designs" title="Designs | Wang Ri Zhao" />
+      <Seo slug="/designs" title="select designs from life;" />
+      <p style={{ color: 'var(--gray)' }}>
+        Perfection doesn't exist. Accept the randomness of life!
+      </p>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Link
           key={node.fields.slug}

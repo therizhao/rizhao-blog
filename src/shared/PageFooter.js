@@ -26,7 +26,7 @@ const PageFooter = ({ to }) => (
         display: 'flex',
       }}
     >
-      <p style={{ maxWidth: 310 }}>don't forget to dream</p>
+      <p style={{ maxWidth: 310 }}>Living in the moment!</p>
     </div>
   </Link>
 );

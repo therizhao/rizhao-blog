@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 - 22 Sep 2021
+
+- [x] Live in the moment!
+
 ## 2.1.8 - 11 Apr 2020
 
 - [x] Fix url used fascinating flour post
@@ -48,7 +52,7 @@
 
 - [x] Fix window not found error in production
 - [x] Remove social tags in seo component
-- [x] Add bubbles for don't forget to dream
+- [x] Add bubbles for living in the moment
 - [x] Update content for homepage
   - [x] Rewrite skills
 - [x] Fix the next button in blog-post
@@ -112,7 +116,7 @@
 - [x] Check mobile
 - [x] Hover link
 - [x] Add desktop css
-  - [x] Add don't forget to dream
+  - [x] Add living in the moment
   - [x] Breakpoint: 768
   - [x] Use media query material
   - [x] DesktopLayout

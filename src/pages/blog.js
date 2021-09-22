@@ -44,7 +44,7 @@ const Blog = () => {
 
   return (
     <>
-      <Seo slug="/blog" title="Blog | Wang Ri Zhao" />
+      <Seo slug="/blog" title="select blog from life;" />
       {data.allMarkdownRemark.edges.map(({ node }) => {
         const title = get(node, 'frontmatter.title') || node.fields.slug;
         return (

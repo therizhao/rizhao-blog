@@ -15,7 +15,7 @@ const Wrapper = styled.div`
 
 const Contact = () => (
   <>
-    <Seo slug="/contact" title="Contact | Wang Ri Zhao" />
+    <Seo slug="/contact" title="select contact from life;" />
     <Wrapper>
       <h1>Always open 🙆‍♂️</h1>
       <div>
