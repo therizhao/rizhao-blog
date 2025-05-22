@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 – 22 May 2025
+
+- [x] Revive
+
 ## 2.2.0 - 22 Sep 2021
 
 - [x] Live in the moment!
