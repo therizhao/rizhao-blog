@@ -1,3 +1,5 @@
+Credits: Forked from https://github.com/gaearon/overreacted.io
+
 # Changelog
 
 ## 2.2.1 – 22 May 2025
